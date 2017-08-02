@@ -1,0 +1,14 @@
+<?php
+	$SECRET = 20 chars long
+	$file = $_POST["file"];
+	$mac = $_POST["mac"];
+	$hash = hash("sha1",$SECRET.$file);
+	$file = pack("H*",$file);
+	$file = explode(",",$file);
+	$file = $file[sizeof($file)-1];
+	if ($hash === $mac) {
+		// Read file
+	} else {
+		echo "You are not authorised to view this file!";
+	}
+?>
