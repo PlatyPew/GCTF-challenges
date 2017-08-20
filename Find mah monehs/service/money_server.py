@@ -6,12 +6,12 @@ import socket
 import threading
 
 PORT = 13337 # Change to desired port
-TIMEOUT = 3.0
+TIMEOUT = 1.0
 
 FLAG = 'flag{this_is_a_flag}'
 
-DEFAULT_SIZE = 5 # Must be > 2. More than 10 for best results
-ROUNDS = 50 # Number of rounds
+DEFAULT_SIZE = 10 # Must be > 2. More than 10 for best results
+ROUNDS = 100 # Number of rounds
 STEP = 1
 # Colours
 BLUE = '\033[94m'
@@ -203,7 +203,7 @@ Press enter to start!
 			connection.sendall(clientData.encode())
 
 	if allow:
-		clientData = 'Here is the flag!\n'
+		clientData = '\nHere is the flag!\n'
 		clientData += FLAG+'\n'
 		connection.sendall(clientData.encode())
 

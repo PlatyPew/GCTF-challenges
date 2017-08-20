@@ -14,7 +14,7 @@ Challenges without links are incomplete or still planning.
 - [Bashing](Bashing)
 
 ## Programming
-- Find Mah Monehs
+- [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
 - Brain Sprain
