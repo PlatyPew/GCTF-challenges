@@ -13,20 +13,10 @@ Connect via `nc 127.0.0.1 2500` (Change to desired ip address and port)
 `I hate needles`
 
 ## Setup
-Using docker
-- Do `make docker`
-- Build the docker file and run it.
-- Allow users to run `/home/bashing_pwn/bash.py` as user 'bashing'.
-- (Docker may not work because this is the first time working with it. Sorry!)
-
-On local machine for testing
-- Do `make local`
-- Login as user 'bashing' and go and run `/home/bashing_pwn/bash.py`
+Do `bash start.sh`
 
 ## Solution
-Now we can use the key to progress forward
-
-This is where it starts to get complicated. The next part tests on bash injection.
+This challenge tests on bash injection.
 ```
 Foods available
 [n]achos
@@ -67,7 +57,7 @@ So we can use special characters and the letters `n` and `f`. Now we're getting 
 
 So by inputting `/??n/??? *`, we manage to view all the files on the folder as well as some system files. This reveals the python script and shows what it is actually doing
 
-```
+```python
 def getFlag():
 	input = raw_input('''Foods available
 [n]achos
@@ -104,7 +94,7 @@ n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };n $(n \\\\`f "" ; f "" "" "" "" ; f "
 We can add another `$()` that acts like an 'eval' function which allows us to run whatever command we like. You can run any command with nothing more than 'n', 'f' and a bunch of special characters!
 
 For example, `ls` becomes this:
-```
+```bash
 n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };$(n $(n \\\\`f "" ; f "" "" "" "" "" ; f "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" "" ; f "" "" "" ; `;))
 ```
 

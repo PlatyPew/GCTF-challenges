@@ -11,14 +11,7 @@ Please save the environment to get the flag!
 `Are you feeling salty? Would you like to have a hashbrown?`
 
 ## Setup
-Using docker
-- Build the docker file and run it.
-- Connect to website
-- (Docker may not work because this is the first time working with it. Sorry!)
-
-On local machine for testing
-- Do `make local`
-- Connect to website
+Do `bash start.sh`
 
 ## Solution
 A pretty simple challenge if you know what a `hash length extension` attack is.
