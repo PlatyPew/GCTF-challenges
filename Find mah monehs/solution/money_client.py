@@ -7,6 +7,9 @@ PRINT_MAZE = True # Prints out the maze from the server
 TIME_TO_WAIT = 0.05 # Time to wait before each round
 BUFFER_SIZE = 512 ** 2 # Amount of bytes socket listens
 
+PORT = 13337
+ADDRESS = 'localhost'
+
 # Formats input data into a dictionary
 def gridFormat(buf):
 	grid = {}
@@ -120,7 +123,7 @@ def solveMaze(grid,start,end):
 def main():
 	try:
 		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		clientsocket.connect(('localhost',13337))
+		clientsocket.connect((ADDRESS,PORT))
 		buf = clientsocket.recv(4096).decode()
 		print(buf,end='')
 		clientsocket.sendall('\n'.encode())

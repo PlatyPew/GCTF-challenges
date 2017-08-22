@@ -10,8 +10,8 @@ TIMEOUT = 1.0
 
 FLAG = 'flag{this_is_a_flag}'
 
-DEFAULT_SIZE = 10 # Must be > 2. More than 10 for best results
-ROUNDS = 100 # Number of rounds
+DEFAULT_SIZE = 100 # Must be > 2. More than 10 for best results
+ROUNDS = 1 # Number of rounds
 STEP = 1
 # Colours
 BLUE = '\033[94m'
@@ -91,39 +91,39 @@ def check(answer,start,end,maze,length=DEFAULT_SIZE,height=DEFAULT_SIZE):
 	for direction in answer.strip():
 		if direction is 'w':
 			if not pos_y - 1 >= 0:
-				return False,'You went out of the grid!\n'
+				return False,'U WENT OUT OV TEH GRID!\n'
 			elif maze[pos_y-1][pos_x] == '-':
-				return False,'You are not allowed to step there!\n'
+				return False,'U R NOT ALLOWD 2 STEP THAR!\n'
 			else:
 				pos_y -= 1
 		elif direction is 's':
 			if not pos_y + 1 < height:
-				return False, 'You went out of the grid!\n'
+				return False, 'U WENT OUT OV TEH GRID!\n'
 			elif maze[pos_y+1][pos_x] == '-':
-				return False,'You are not allowed to step there!\n'
+				return False,'U R NOT ALLOWD 2 STEP THAR!\n'
 			else:
 				pos_y += 1
 		elif direction is 'a':
 			if not pos_x - 1 >= 0:
-				return False, 'You went out of the grid!\n'
+				return False, 'U WENT OUT OV TEH GRID!\n'
 			elif maze[pos_y][pos_x-1] == '-':
-				return False,'You are not allowed to step there!\n'
+				return False,'U R NOT ALLOWD 2 STEP THAR!\n'
 			else:
 				pos_x -= 1
 		elif direction is 'd':
 			if not pos_x + 1 < length:
-				return False, 'You went out of the grid!\n'
+				return False, 'U WENT OUT OV TEH GRID!\n'
 			elif maze[pos_y][pos_x+1] == '-':
-				return False,'You are not allowed to step there!\n'
+				return False,'U R NOT ALLOWD 2 STEP THAR!\n'
 			else:
 				pos_x += 1
 		else:
-			return False, 'Invalid input!\n'
+			return False, 'INVALID INPUT!\n'
 	if pos_x == end[0] and pos_y == end[1]:
 		return True, ''
 	else:
 		maze[pos_y][pos_x] = 'x'
-		return False, 'You ended in the wrong place!\n\n' + display(maze)
+		return False, 'U ENDD IN DA WRONG PLACE!\n\n' + display(maze)
 
 def userInput(connection,tm=TIMEOUT):
 	try:
@@ -134,21 +134,21 @@ def userInput(connection,tm=TIMEOUT):
 		return False
 
 def gameStart(whut,	connection):
-	clientData = '''Help me earn money!
+	clientData = '''HALP ME EARN MONEY!
 
-Rules:
-You have %d seconds to find the a path to the money!
-Do this %d times in a row and you win!
+RULEZ:
+U HAS %d SECONDZ 2 FIND TEH PATH 2 TEH MONEY!
+DO DIS %d TIEMS IN ROW AN U WIN!
 
-The {3}@{0} is the starting point
-The {4}${0} is the ending point
-The {2}+{0}'s are the paths that you can take
-The {1}-{0}'s are paths that you cannot take
+TEH {3}@{0} IZ TEH STARTIN POINT
+TEH {4}${0} IZ TEH ENDIN POINT
+TEH {2}+{0}'S R TEH PATHS DAT U CAN TAEK
+TEH {1}-{0}'S R PATHS DAT U CANT TAEK
 
-To specify up you type 'w'
-To specify left you type 'a'
-To specify down you type 's'
-To specify right you type 'd'
+2 SPECIFY UP U TYPE 'W'
+2 SPECIFY LEFT U TYPE 'A'
+2 SPECIFY DOWN U TYPE 'S'
+2 SPECIFY RITE U TYPE 'D'
 
 For example:
  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0} 
@@ -162,9 +162,9 @@ For example:
  {2}+{0}  {2}+{0}  {1}-{0}  {1}-{0}  {2}+{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0} 
  {2}+{0}  {2}+{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}
 
-The answer will be: aaaasssa
+TEH ANZWR WILL BE: aaaawwwa
 
-Press enter to start!
+PRES ENTR 2 START!
 '''.format(END,RED,GREEN,YELLOW,BLUE) % (int(TIMEOUT),ROUNDS)
 	connection.sendall(clientData.encode())
 	userInput(connection,tm=60.0)
@@ -181,14 +181,14 @@ Press enter to start!
 		while not same:
 			same, maze, start, end = turtle(grid(),steps)
 
-		clientData = '\nRound {}\n'.format(i+1)
+		clientData = '\nROUND {}\n'.format(i+1)
 		clientData += display(maze)+'\n'
-		clientData += 'Path to take > '
+		clientData += 'PATH 2 TAEK > '
 		connection.sendall(clientData.encode())
 
 		answer = userInput(connection)
 		if not answer:
-			connection.sendall("\nYou ran out of time!\n".encode())
+			connection.sendall("\nU RAN OUT OV TIEM!\n".encode())
 			break
 
 		allow, text = check(answer,start,end,maze)
@@ -199,11 +199,11 @@ Press enter to start!
 			connection.sendall(clientData.encode())
 			break
 		else:
-			clientData += 'You got ${}'.format(i+1)
+			clientData += 'U GOT ${}'.format(i+1)
 			connection.sendall(clientData.encode())
 
 	if allow:
-		clientData = '\nHere is the flag!\n'
+		clientData = '\nHER IZ TEH FLAG!\n'
 		clientData += FLAG+'\n'
 		connection.sendall(clientData.encode())
 
