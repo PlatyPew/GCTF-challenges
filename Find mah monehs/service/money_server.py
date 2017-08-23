@@ -10,8 +10,8 @@ TIMEOUT = 1.0
 
 FLAG = 'flag{this_is_a_flag}'
 
-DEFAULT_SIZE = 100 # Must be > 2. More than 10 for best results
-ROUNDS = 1 # Number of rounds
+DEFAULT_SIZE = 5 # Must be > 2. More than 10 for best results
+ROUNDS = 100 # Number of rounds
 STEP = 1
 # Colours
 BLUE = '\033[94m'
@@ -21,10 +21,8 @@ RED = '\033[91m'
 END = '\033[0m'
 POS = '\033[43m'
 
-maze = {}
-
 # Generate grid length x height
-def grid(length=DEFAULT_SIZE,height=DEFAULT_SIZE):
+def grid(maze,length=DEFAULT_SIZE,height=DEFAULT_SIZE):
 	for row in range(length):
 		maze[row] = []
 		for col in range(height):
@@ -170,7 +168,7 @@ PRES ENTR 2 START!
 	userInput(connection,tm=60.0)
 	
 	for i in range(ROUNDS):
-		steps = int(DEFAULT_SIZE**2//STEP)
+		steps = int((DEFAULT_SIZE+i)**2//STEP)
 		same = False
 		maze = None
 		start = None
@@ -179,7 +177,7 @@ PRES ENTR 2 START!
 
 		# Ensure start and end not the same position
 		while not same:
-			same, maze, start, end = turtle(grid(),steps)
+			same, maze, start, end = turtle(grid({},length=DEFAULT_SIZE+i,height=DEFAULT_SIZE+i),steps,length=DEFAULT_SIZE+i,height=DEFAULT_SIZE+i)
 
 		clientData = '\nROUND {}\n'.format(i+1)
 		clientData += display(maze)+'\n'
@@ -191,7 +189,7 @@ PRES ENTR 2 START!
 			connection.sendall("\nU RAN OUT OV TIEM!\n".encode())
 			break
 
-		allow, text = check(answer,start,end,maze)
+		allow, text = check(answer,start,end,maze,length=DEFAULT_SIZE+i,height=DEFAULT_SIZE+i)
 		
 		clientData = (text)
 		
