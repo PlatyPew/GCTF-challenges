@@ -1,6 +1,8 @@
 # Bashing your spirit foods
 Testing on bash injection knowledge
 
+<i>Creator - @Platy</i>
+
 ## Category
 Misc.
 

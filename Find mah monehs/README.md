@@ -36,7 +36,7 @@ Alright so getting right into it, when we connect to a service we are greeted wi
 
 TEH ANZWR WILL BE: aaaawwwa
 ```
-Basically, we want to give directions to get from the `@` to the `$` using the 'wasd' keys to navigate. Easy enough right? The program only gives us 1 second to calculate the path for a 100x100 size grid. So it's time to program.
+Basically, we want to give directions to get from the `@` to the `$` using the 'wasd' keys to navigate. Easy enough right? The program only gives us 1 second to calculate the path. So it's time to program.
 
 Using sockets in python, we can create a pathfinding algorithm.
 
