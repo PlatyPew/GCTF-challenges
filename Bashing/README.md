@@ -89,7 +89,7 @@ We can use octal to print out characters. All we need now is to be able to print
 `${#}` counts the number of arguments specified to the print function. Using the previously declared function `n`, we can use it to create a new function `f(){ n ${#}; };`
 
 Now we can specify any number we want and by extension, whatever string we want. This prints out 'a' because the octal for 'a' is '141'. Therefore, there are 3 function `f` with 1, 4 and 1 as arguments respectively:
-```
+```bash
 n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };n $(n \\\\`f "" ; f "" "" "" "" ; f "" ; `;)
 ```
 
