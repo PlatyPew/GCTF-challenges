@@ -6,7 +6,7 @@ import socket
 import threading
 
 PORT = 13337 # Change to desired port
-TIMEOUT = 1.0
+TIMEOUT = 3.0
 
 FLAG = 'flag{this_is_a_flag}'
 
@@ -143,10 +143,10 @@ TEH {4}${0} IZ TEH ENDIN POINT
 TEH {2}+{0}'S R TEH PATHS DAT U CAN TAEK
 TEH {1}-{0}'S R PATHS DAT U CANT TAEK
 
-2 SPECIFY UP U TYPE 'W'
-2 SPECIFY LEFT U TYPE 'A'
-2 SPECIFY DOWN U TYPE 'S'
-2 SPECIFY RITE U TYPE 'D'
+2 SPECIFY UP U TYPE 'w'
+2 SPECIFY LEFT U TYPE 'a'
+2 SPECIFY DOWN U TYPE 's'
+2 SPECIFY RITE U TYPE 'd'
 
 For example:
  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0}  {1}-{0} 
