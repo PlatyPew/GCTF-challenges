@@ -7,7 +7,7 @@ Testing on programming knowledge
 Programming
 
 ## Question
-NEEDZ UR HALP ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. NEEDZ $100. CAN U HALP ME PLZ?
+NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 
 Connect via `nc 127.0.0.1 13337`
 

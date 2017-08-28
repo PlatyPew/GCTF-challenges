@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Author: Daryl Lim
 
 from random import choice,randint
 import socket

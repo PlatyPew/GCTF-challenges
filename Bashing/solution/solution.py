@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
+
 PRINT_FUNCTION = 'n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };'
 START_PRINT = '$(n $('
 END_PRINT = '))'

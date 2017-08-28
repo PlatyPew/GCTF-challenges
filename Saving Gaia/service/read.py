@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 import sys,os
 
 if os.path.isfile(sys.argv[1]):
