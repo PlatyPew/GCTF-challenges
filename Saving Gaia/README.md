@@ -7,7 +7,9 @@ Testing on Local File Inclusion exploit, hash length extension attacks and findi
 Web
 
 ## Question
-Please save the environment to get the flag!
+>Please save the environment to get the flag!
+
+>Connect via `http://localhost`
 
 ## Hint
 `Are you feeling salty? Would you like to have a hashbrown?`
