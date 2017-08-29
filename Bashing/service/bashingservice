@@ -4,9 +4,9 @@ service bashinservice
     socket_type = stream
     protocol    = tcp
     wait        = no
-    user        = alephuser
+    user        = bashing
     bind        = 0.0.0.0
     server      = /home/bashing_pwn/bash.py
     type        = UNLISTED
-    port        = 2500
+    port        = 25000
 }

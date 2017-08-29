@@ -17,5 +17,5 @@ RUN chown $user2 /home/$user2/flag.txt
 RUN chmod 400 /home/$user2/flag.txt
 RUN chown $user2 /home/$user2/.v13wF1a6
 RUN chmod 4755 /home/$user2/.v13wF1a6
-EXPOSE 2500
+EXPOSE 25000
 CMD ["/usr/sbin/xinetd","-d"]
