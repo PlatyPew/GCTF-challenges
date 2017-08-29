@@ -1,4 +1,4 @@
-service bashinservice
+service bashingservice
 {
     disable = no
     socket_type = stream
