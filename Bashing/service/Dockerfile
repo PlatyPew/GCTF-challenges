@@ -17,3 +17,4 @@ RUN chmod 4755 /home/$user2/.v13wF1a6
 USER $user1
 WORKDIR /home/$user2
 EXPOSE 25000
+CMD ["/home/bashing_pwn/bash.py"]
