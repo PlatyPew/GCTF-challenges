@@ -100,7 +100,7 @@ For example, `ls` becomes this:
 n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };$(n $(n \\\\`f "" ; f "" "" "" "" "" ; f "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" "" ; f "" "" "" ; `;))
 ```
 
-There is a generator `gen.py` in the solution folder to generate the commands.
+There is a generator `solution.py` in the solution folder to generate the commands.
 
 Basically, we have shell access with a very troublesome way to run commands.
 
