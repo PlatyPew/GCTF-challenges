@@ -18,7 +18,7 @@ Challenges without links are incomplete or still planning.
 
 ## Pwn
 - Brain Sprain
-- C my program
+- [C my program](C%20my%20program)
 
 ## Sanity
 
