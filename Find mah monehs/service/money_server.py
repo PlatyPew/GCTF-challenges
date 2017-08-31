@@ -203,6 +203,7 @@ PRES ENTR 2 START!
 		clientData = '\nHER IZ TEH FLAG!\n'
 		clientData += FLAG+'\n'
 		connection.sendall(clientData.encode())
+	connection.close()
 
 
 def main():
