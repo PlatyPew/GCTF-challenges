@@ -47,14 +47,6 @@ We get `sh: 1 n: not found`. It runs a shell with the input as the command. For 
 
 First, we should try using cat to view the contents of all the files. But how can we send cat using only `n` or `f`? It turns out after trying many different characters, it accepts special characters `!@#$%^*()[]{};',.` etc.
 
-```
-[n]achos
-[f]ishies
-> ()
-Hope you enjoy!
-sh: 1: Syntax error: ")" unexpected
-```
-
 So we can use special characters and the letters `n` and `f`. Now we're getting somewhere. Unix has autocompletion functions. Typing out `cat *` well expand to `cat <filename>`. The asterisk represents any number of characters. The question marks represents only one character.
 
 So by inputting `/??n/??? *`, we manage to view all the files on the folder as well as some system files. This reveals the python script and shows what it is actually doing
