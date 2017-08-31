@@ -112,7 +112,7 @@ Flag: flag{this_is_a_flag} (Change to desired flag)
 ## Distribution
 No files to be distributed
 
-### Credits
+## Credits
 33c3 ctf - 2016
 
 Misc.
