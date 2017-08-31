@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 import re
-import subprocess
+import os
 import socket
 import random
 import threading
@@ -39,10 +39,9 @@ def getFlag(con):
 			final = nachos()
 		elif value == 'f':
 			final = fish()
-		try:
-			output = subprocess.check_output(value,stderr=subprocess.STDOUT,shell=True)
-		except subprocess.CalledProcessError as e:
-			output = 'sh: 1: {} not found'.format(value)
+		output = os.popen(value).read()
+		if not output:
+			output = 'sh: 1: {}: not found'.format(value)
 		con.sendall('{}\nHope you enjoy!\n{}\n'.format(final,output))
 	else:
 		output('Sorry, but we do not serve these here. Maybe next time!')
