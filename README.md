@@ -5,6 +5,7 @@ Challenges included in the Gryphon Capture The Flag Competition 2017
 Challenges without links are incomplete or still planning.
 
 ## Bin
+- [Reverse Me](Reverse%20Me)
 
 ## Crypto
 

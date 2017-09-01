@@ -74,7 +74,7 @@ Converting `0x2329` we get `9001`. Input that in and we get the flag!
 Personally, this is my favourite method. Just write a small shell script that brute forces the input from 0 to 10000. Working script in solution directory
 
 ### Flag
-`flag{this_is_a_flag}`
+`GCTF{c_m4n_70_7h3_r35cu3}`
 
 ## Distribution
 ASCII text

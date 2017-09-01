@@ -107,7 +107,7 @@ Running the program again with the correct password gives you the flag. Final co
 Phew! That was very lengthy and probably a lot to absorb.
 
 ### Flag
-Flag: flag{this_is_a_flag} (Change to desired flag)
+`GCTF{b45h1n6_15_b4d_f0r_h34l7h}`
 
 ## Distribution
 No files to be distributed
