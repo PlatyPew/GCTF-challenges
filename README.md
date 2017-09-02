@@ -13,6 +13,7 @@ Challenges without links are incomplete or still planning.
 
 ## Misc
 - [Bashing](Bashing)
+- [Haxor wallaper](Haxor%20wallpaper)
 
 ## Programming
 - [Find mah monehs](Find%20mah%20monehs)
