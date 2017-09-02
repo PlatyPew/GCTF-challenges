@@ -5,7 +5,7 @@ Challenges included in the Gryphon Capture The Flag Competition 2017
 Challenges without links are incomplete or still planning.
 
 ## Bin
-- [Reverse Me](Reverse%20Me)
+- [Despresso Espresso](Depresso%20Espresso)
 
 ## Crypto
 
@@ -14,6 +14,7 @@ Challenges without links are incomplete or still planning.
 ## Misc
 - [Bashing](Bashing)
 - [Haxor wallaper](Haxor%20wallpaper)
+- [Hell's Programmer](Hell's%20Programmer)
 
 ## Programming
 - [Find mah monehs](Find%20mah%20monehs)
