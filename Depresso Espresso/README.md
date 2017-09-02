@@ -13,7 +13,7 @@ I've intercepted 2 files. One file is a Java class while the other is apparently
 Feistel. Just Feistel.
 
 ## Setup
-Just distribute files
+Do `make all`
 
 ## Solution
 Upon decompiling the files with some external programs such as [JD-Gui](http://jd.benow.ca/), we can retrieve the original source code.

@@ -8,6 +8,7 @@ Challenges without links are incomplete or still planning.
 - [Despresso Espresso](Depresso%20Espresso)
 
 ## Crypto
+- [Crypto Hotdogs](Crypto%20Hotdogs)
 
 ## Forensics
 

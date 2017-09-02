@@ -13,7 +13,7 @@ My friend just learnt how to program in the C language. However, he said that so
 None.
 
 ## Setup
-Distibute all files in distrib directory
+Do `bash generate.sh`
 
 ## Solution
 Upon opening `program.txt`, we are greeted with a huge chunk of base64 text. As the title and description would suggest, this is a C program encoded using base64 so most online tools will not be able to decode it properly.
