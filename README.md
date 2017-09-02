@@ -20,7 +20,7 @@ Challenges without links are incomplete or still planning.
 - [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
-- Brain Sprain (Might be removed)
+- ~~Brain Sprain~~
 - [C my program](C%20my%20program)
 
 ## Sanity
