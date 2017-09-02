@@ -16,6 +16,6 @@ public class Lolwhut {
         ObjectOutputStream lol = new ObjectOutputStream(lel);
         lol.writeObject(hue);
         lol.close();
-		System.out.println("File " + args[3] + " created");
+	System.out.println("File " + args[3] + " created");
     }
 }
