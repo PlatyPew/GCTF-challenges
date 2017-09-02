@@ -53,4 +53,4 @@ ASCII text
 - hacker.txt
 
 ## Credits
-Credits for inspiration blah blah
+None.
