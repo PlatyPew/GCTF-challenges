@@ -1,25 +1,29 @@
 # Name of challenge
-What is challenge about
+Test Googling skills.
 
 <i>Creator - @Platy</i>
 
 ## Category
-Category
+Misc
 
 ## Question
-This is the question
+It's pretty hellish down there! I created a small print statement using esolang. Interpret and get the flag!
 
 ## Hint
-This is the hint
+The 8th circle
 
 ## Setup
-How to setup
+Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#generator) and load the text in the generator
 
 ## Solution
-How to solve
+Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and paste the text and boom! Flag.
+
+### Flag
+`GCTF{m4lb0l63_15_0n3_h3ll_0f_4_h07_pl4c3}`
 
 ## Distribution
-Files to distribute
+ASCII text
+- hell.txt
 
 ## Credits
-Credits for inspiration blah blah
+None.
