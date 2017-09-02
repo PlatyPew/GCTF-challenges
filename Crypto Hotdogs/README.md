@@ -7,7 +7,7 @@ Crack RSA
 Crypto
 
 ## Question
-Our team, the Crypto Hotdogs seek for your help. We have encrypted our flag with the public key. However, some idiot told one of my team members that the command 'rm' means 'remake'. Basically, he removed our private key and we have no idea how to retrieve it. Maybe you can help us.
+>Our team, the Crypto Hotdogs seek for your help. We have encrypted our flag with the public key. However, some idiot told one of my team members that the command 'rm' means 'remake'. Basically, he removed our private key and we have no idea how to retrieve it. Maybe you can help us.
 
 ## Hint
 Attack the sausages!

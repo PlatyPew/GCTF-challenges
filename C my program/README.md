@@ -7,7 +7,7 @@ Testing on writing small scripts or dissassembling programs
 Pwn
 
 ## Question
-My friend just learnt how to program in the C language. However, he said that something is wrong with his program and wants me to see what's going on... He tried sending me the file through whatsapp but it doesn't allow compiled C files. So he sent me this .txt file. I only know how to program in scratch so I have no idea what to do with this.
+>My friend just learnt how to program in the C language. However, he said that something is wrong with his program and wants me to see what's going on... He tried sending me the file through whatsapp but it doesn't allow compiled C files. So he sent me this .txt file. I only know how to program in scratch so I have no idea what to do with this.
 
 ## Hint
 None.

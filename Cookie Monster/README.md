@@ -7,7 +7,7 @@ Display use of XSS to steal cookies
 Web
 
 ## Question
-To be written
+>To be written
 
 ## Hint
 To be written
