@@ -7,7 +7,7 @@ Reverse Engineering Java code
 Bin
 
 ## Question
-I've intercepted 2 files. One file is a Java class while the other is apparently the output of the Java program. I've been trying to work out how to use the program but it constantly gives me an error. Reverse the program and help me see what the output file is all about.
+I've intercepted 2 files. One file is a Java class while the other is apparently the output of the Java program. I've been trying to work out how to use the program but it constantly gives me an error. I've dranked countless cups of java, but I'm still stuck. Help me please!
 
 ## Hint
 Feistel. Just Feistel.

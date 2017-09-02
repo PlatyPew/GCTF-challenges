@@ -7,7 +7,7 @@ Understanding of html and css
 Misc
 
 ## Question
-This cringey script kiddie from YouTube keeps saying that he's an eliete hacker. He sent me this file claiming that it's the source code for a wallpaper virus that he had written. I'm really scared to run it. Can you help me figure out what's going on?
+This cringey script kiddie from YouTube keeps saying that he's an elite hacker. He sent me this file claiming that it's the source code for a wallpaper virus that he had written. I'm really scared to run it. Can you help me figure out what's going on?
 
 ## Hint
 Roses are red, violets are blue,
