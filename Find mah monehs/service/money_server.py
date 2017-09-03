@@ -130,7 +130,7 @@ def userInput(connection,tm=TIMEOUT):
 	except:
 		return False
 
-def gameStart(whut,	connection):
+def gameStart(whut, connection):
 	clientData = '''HALP ME EARN MONEY!
 
 RULEZ:
