@@ -21,6 +21,9 @@ Files to distribute
 ## Solution
 How to solve
 
+### Flag
+`flag`
+
 ## Credits
 Credits for inspiration blah blah
 
