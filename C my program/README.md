@@ -9,11 +9,15 @@ Pwn
 ## Question
 >My friend just learnt how to program in the C language. However, he said that something is wrong with his program and wants me to see what's going on... He tried sending me the file through whatsapp but it doesn't allow compiled C files. So he sent me this .txt file. I only know how to program in scratch so I have no idea what to do with this.
 
-## Hint
+### Hint
 None.
 
-## Setup
+## Setup Guide
 Do `bash generate.sh`
+
+## Distribution
+ASCII text
+- program.txt
 
 ## Solution
 Upon opening `program.txt`, we are greeted with a huge chunk of base64 text. As the title and description would suggest, this is a C program encoded using base64 so most online tools will not be able to decode it properly.
@@ -76,9 +80,8 @@ Personally, this is my favourite method. Just write a small shell script that br
 ### Flag
 `GCTF{c_m4n_70_7h3_r35cu3}`
 
-## Distribution
-ASCII text
-- program.txt
-
 ## Credits
-None
+None.
+
+## Recommended Reads
+None.

@@ -9,11 +9,18 @@ Crypto
 ## Question
 >Alice has just learnt about encryption and OTPs in Applied Cryptography. Now she wants to put her knowledge to the test. She successfully implemented OTPs in her Java code, but the lecturer said that it is insecure.
 
-## Hint
+### Hint
 She did not fully understand that 'OT' in 'OTP' stands for 'One-Time'
 
-## Setup
+## Setup Guide
 Compile `OTP.java` and run in generate directory
+
+## Distribution
+Java Source Code
+- OTP.java
+
+Java Serialisation Data
+- output
 
 ## Solution
 Starting off, the number of possible keys generated is `2 ^ (8 * 30)` which is `1766847064778384329583297500742918515827483896875618958121606201292619776`.
@@ -57,16 +64,12 @@ Working solution `OTP_Break.java` in solution directory
 ### Flag
 `GCTF{p4ds_u53d_0n3_700_m4ny_71m35}`
 
-## Distribution
-Java Source Code
-- OTP.java
-
-Java Serialisation Data
-- output
-
 ## Credits
 AlexCTF 2017
 
 Crypto
 
 CR2 Many time secrets - 100pts
+
+## Recommended Reads
+None.

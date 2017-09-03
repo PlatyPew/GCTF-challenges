@@ -11,11 +11,14 @@ Web
 >
 >Connect via `http://localhost`
 
-## Hint
+### Hint
 `Are you feeling salty? Would you like to have a hashbrown?`
 
-## Setup
+## Setup Guide
 Do `bash start.sh`
+
+## Distribution
+No files to be distributed
 
 ## Solution
 A pretty simple challenge if you know what a `hash length extension` attack is.
@@ -89,12 +92,12 @@ An therefore we get the flag.
 ### Flag
 Flag: flag{this_is_a_flag} (Change to desired flag)
 
-## Distribution
-No files to be distributed
-
 ## Credits
 Google CTF - 2017
 
 Misc.
 
 Mindreader - 50pts
+
+## Recommended Reads
+None.

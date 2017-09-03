@@ -9,17 +9,20 @@ Category
 ## Question
 This is the question
 
-## Hint
+### Hint
 This is the hint
 
-## Setup
+## Setup Guide
 How to setup
-
-## Solution
-How to solve
 
 ## Distribution
 Files to distribute
 
+## Solution
+How to solve
+
 ## Credits
 Credits for inspiration blah blah
+
+## Recommended Reads
+Reconmmended Reads

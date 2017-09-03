@@ -9,11 +9,18 @@ Bin
 ## Question
 >I've intercepted 2 files. One file is a Java class while the other is apparently the output of the Java program. I've been trying to work out how to use the program but it constantly gives me an error. I've dranked countless cups of java, but I'm still stuck. Help me please!
 
-## Hint
+### Hint
 Feistel. Just Feistel.
 
 ## Setup
 Do `make all`
+
+## Distribution
+Compile Java Class Data
+- Lolwhut.class
+
+Java Serialization Data
+- output
 
 ## Solution
 Upon decompiling the files with some external programs such as [JD-Gui](http://jd.benow.ca/), we can retrieve the original source code.
@@ -105,12 +112,8 @@ Working solution in solution directory.
 ### Flag
 `GCTF{d35_l0v35_4_6r347_c1ph3r}`
 
-## Distribution
-Compile Java Class Data
-- Lolwhut.class
-
-Java Serialization Data
-- output
-
 ## Credits
+None.
+
+## Recommended Reads
 None.

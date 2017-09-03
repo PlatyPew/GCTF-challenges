@@ -9,15 +9,19 @@ Misc
 ## Question
 >This cringey script kiddie from YouTube keeps saying that he's an elite hacker. He sent me this file claiming that it's the source code for a wallpaper virus that he had written. I'm really scared to run it. Can you help me figure out what's going on?
 
-## Hint
+### Hint
 Roses are red, violets are blue,
 
 HTML is not a programming language, I'm terrible at rhymes sorry.
 
-## Setup
+## Setup Guide
 Toss generate.jpg into this website [picascii](http://picascii.com/) and generate the required html code.
 
 Remove the inline-styling in the `pre` tag.
+
+## Distribution
+ASCII text
+- hacker.txt
 
 ## Solution
 It's a html file.
@@ -48,9 +52,8 @@ Link the file in html.
 ### Flag
 `GCTF{y0u_41n7_h4x0rm4nz}`
 
-## Distribution
-ASCII text
-- hacker.txt
-
 ## Credits
+None.
+
+## Recommended Reads
 None.

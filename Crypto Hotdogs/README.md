@@ -9,11 +9,18 @@ Crypto
 ## Question
 >Our team, the Crypto Hotdogs seek for your help. We have encrypted our flag with the public key. However, some idiot told one of my team members that the command 'rm' means 'remake'. Basically, he removed our private key and we have no idea how to retrieve it. Maybe you can help us.
 
-## Hint
+### Hint
 Attack the sausages!
 
-## Setup
+## Setup Guide
 Run `bash generate.sh` in generate directory
+
+## Distribution
+Encrypted Data
+- flag.bin
+
+RSA Public Key
+- public.pem
 
 ## Solution
 We can start by extracting the values required to decrypt using `openssl rsa -pubin -text -noout -in public.pem`
@@ -82,12 +89,8 @@ We can use openssl do decrypt `flag.bin`
 ### Flag
 `GCTF{w0w_h0770_d06u}`
 
-## Distribution
-Encrypted Data
-- flag.bin
-
-RSA Public Key
-- public.pem
-
 ## Credits
+None.
+
+## Recommended Reads
 None.

@@ -11,11 +11,19 @@ Programming
 >
 >Connect via `nc 127.0.0.1 13337`
 
-## Hint
+### Hint
 PATH FINDIN ALGORITHM M8
 
-## Setup
+## Setup Guide
 Do `bash start.sh`
+
+## Distribution
+5 sample files for testing
+- sample1.txt
+- sample2.txt
+- sample3.txt
+- sample4.txt
+- sample5.txt
 
 ## Solution
 To start off, this challenge has nothing to do with lolcat I just wanted to have some fun.
@@ -51,13 +59,8 @@ Working program in solution.
 ### Flag
 Flag: flag{this_is_a_flag} (Change to desired flag)
 
-## Distribution
-5 sample files for testing
-- sample1.txt
-- sample2.txt
-- sample3.txt
-- sample4.txt
-- sample5.txt
-
 ## Credits
-None
+None.
+
+## Recommended Reads
+None.

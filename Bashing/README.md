@@ -11,11 +11,14 @@ Pwn
 >
 >Connect via `nc 127.0.0.1 2500` (Change to desired ip address and port)
 
-## Hint
+### Hint
 `I hate needles`
 
-## Setup
+## Setup Guide
 Do `bash start.sh`
+
+## Distribution
+None.
 
 ## Solution
 This challenge tests on bash injection.
@@ -118,3 +121,6 @@ No files to be distributed
 Misc.
 
 hohoho - 350pts
+
+## Recommended Reads
+None.

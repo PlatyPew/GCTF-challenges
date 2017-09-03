@@ -9,11 +9,15 @@ Misc
 ## Question
 >It's pretty hellish down there! I created a small print statement using esolang. Interpret and get the flag!
 
-## Hint
+### Hint
 The 8th circle
 
-## Setup
+## Setup Guide
 Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#generator) and load the text in the generator
+
+## Distribution
+ASCII text
+- hell.txt
 
 ## Solution
 Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and paste the text and boom! Flag.
@@ -21,9 +25,8 @@ Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and past
 ### Flag
 `GCTF{m4lb0l63_15_0n3_h3ll_0f_4_h07_pl4c3}`
 
-## Distribution
-ASCII text
-- hell.txt
-
 ## Credits
+None.
+
+## Recommended Reads
 None.
