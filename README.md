@@ -13,7 +13,6 @@ Challenges without links are incomplete or still planning.
 ## Forensics
 
 ## Misc
-- [Bashing](Bashing)
 - [Haxor wallaper](Haxor%20wallpaper)
 - [Hell's Programmer](Hell's%20Programmer)
 
@@ -21,8 +20,9 @@ Challenges without links are incomplete or still planning.
 - [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
-- ~~Brain Sprain~~
+- ~~Brain Sprain~~ (Rest in piece)
 - [C my program](C%20my%20program)
+- [Bashing](Bashing)
 
 ## Sanity
 
