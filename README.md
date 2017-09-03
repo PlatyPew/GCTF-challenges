@@ -9,6 +9,7 @@ Challenges without links are incomplete or still planning.
 
 ## Crypto
 - [Crypto Hotdogs](Crypto%20Hotdogs)
+- [Time to Crypt](Time%20to%20Crypt)
 
 ## Forensics
 
@@ -20,7 +21,7 @@ Challenges without links are incomplete or still planning.
 - [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
-- ~~Brain Sprain~~ (Rest in piece)
+- ~~Brain Sprain~~ (RIP FAM)
 - [C my program](C%20my%20program)
 - [Bashing](Bashing)
 
