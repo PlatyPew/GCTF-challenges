@@ -26,7 +26,7 @@ public class OTP {
 
     public static byte[] otp_gen() {
         Random randomno = new Random();
-        byte[] nbyte = new byte[8];
+        byte[] nbyte = new byte[30];
         randomno.nextBytes(nbyte);
         return nbyte;
     }
