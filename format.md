@@ -7,7 +7,7 @@ What is challenge about
 Category
 
 ## Question
-This is the question
+>This is the question
 
 ### Hint
 This is the hint
