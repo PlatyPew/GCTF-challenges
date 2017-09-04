@@ -1,5 +1,5 @@
 <?php
-	$SECRET = 20 chars long
+	$SECRET = "XXXXXXXXXXXXXXXXXXXX"; //20 chars long
 	$file = $_POST["file"];
 	$mac = $_POST["mac"];
 	$hash = hash("sha1",$SECRET.$file);
