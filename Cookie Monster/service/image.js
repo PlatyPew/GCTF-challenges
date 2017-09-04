@@ -5,8 +5,8 @@ input = escape(system.args[1]);
 var page = require('webpage').create();
 
 phantom.addCookie({
-	  'name'     : 'flag', 
-	  'value'    : 'GCTF{c_15_f0r_c00k13_4nd_c00k13_15_f0r_m3}', 
+	  'name'     : 'passwordzzzzz', 
+	  'value'    : '1_4m_z3_4dm1n_0f_z15_5173_pl3453_n0_h4ck_d4nk', 
 	  'domain'   : '192.168.159.131',
 });
 
