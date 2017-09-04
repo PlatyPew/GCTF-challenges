@@ -13,7 +13,7 @@ Bin
 Feistel. Just Feistel.
 
 ## Setup
-Do `make all`
+Do `make all` in generate directory
 
 ## Distribution
 Compile Java Class Data

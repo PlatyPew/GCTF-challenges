@@ -13,7 +13,7 @@ Crypto
 She did not fully understand that 'OT' in 'OTP' stands for 'One-Time'
 
 ## Setup Guide
-Compile `OTP.java` and run in generate directory
+Compile `OTP.java` and run in generate directory (I have no idea how to javac packages)
 
 ## Distribution
 Java Source Code

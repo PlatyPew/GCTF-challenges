@@ -13,7 +13,7 @@ Pwn
 None.
 
 ## Setup Guide
-Do `bash generate.sh`
+Do `make all` in generate directory
 
 ## Distribution
 ASCII text

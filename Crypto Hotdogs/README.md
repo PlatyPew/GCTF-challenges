@@ -13,7 +13,7 @@ Crypto
 Attack the sausages!
 
 ## Setup Guide
-Run `bash generate.sh` in generate directory
+Do `make all` in generate directory
 
 ## Distribution
 Encrypted Data
