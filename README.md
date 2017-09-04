@@ -5,7 +5,7 @@ Challenges included in the Gryphon Capture The Flag Competition 2017
 Challenges without links are incomplete or still planning.
 
 ## Bin
-- [Despresso Espresso](Depresso%20Espresso)
+- [Depresso Espresso](Depresso%20Espresso)
 
 ## Crypto
 - [Crypto Hotdogs](Crypto%20Hotdogs)
@@ -18,18 +18,20 @@ Challenges without links are incomplete or still planning.
 - [Hell's Programmer](Hell's%20Programmer)
 
 ## Programming
-- [Find mah monehs](Find%20mah%20monehs)
+- [Coin Miner](Coin%20Miner) <i>(Backend incomplete)</i>
+- [Find mah monehs](Find%20mah%20monehs) <i>(Docker incomplete)</i>
 
 ## Pwn
+- [Bashing](Bashing) <i>(Docker incomplete)</i>
 - ~~Brain Sprain~~ (RIP FAM)
 - [C my program](C%20my%20program)
-- [Bashing](Bashing)
 
 ## Sanity
+Nothing to see yet
 
 ## Web
-- [Saving Gaia](Saving%20Gaia)
-- Cookie Monster
+- [Cookie Monster](Cookie%20Monster) <i>(Backend incomplete)</i>
+- [Saving Gaia](Saving%20Gaia) <i>(Docker incomplete)</i>
 
 # Credits
-Created by @PlatyPooper
+<i>Creator - @PlatyPooper</i>
