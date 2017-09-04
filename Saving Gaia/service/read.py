@@ -8,6 +8,6 @@ if os.path.isfile(sys.argv[1]):
 	for phrase in f.readlines():
 		final.append(phrase.strip())
 	f.close()
-	print final
+	print ', '.join(final)
 else:
 	print 'File does not exist!'
