@@ -7,7 +7,7 @@ import hashlib
 PORT = 31337
 TIMEOUT = 60.0
 
-FLAG = 'flag{this_is_a_flag}'
+FLAG = 'GCTF{}'
 
 BLUE = '\033[94m'
 END = '\033[0m'
