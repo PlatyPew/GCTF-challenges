@@ -15,6 +15,7 @@ Challenges without links are incomplete or still planning.
 Nothing to see yet
 
 ## Misc
+- [A Whole New World](A%20Whole%20New%20World)
 - [Haxor wallaper](Haxor%20wallpaper)
 - [Hell's Programmer](Hell's%20Programmer)
 
