@@ -12,12 +12,11 @@ Challenges without links are incomplete or still planning.
 - [Time to Crypt](Time%20to%20Crypt)
 
 ## Forensics
-Nothing to see yet
+- [Potato's Brain Sprain](Potato's%20Brain%20Sprain)
 
 ## Misc
 - [A Whole New World](A%20Whole%20New%20World)
 - [Haxor wallaper](Haxor%20wallpaper)
-- [Hell's Programmer](Hell's%20Programmer)
 
 ## Programming
 - [Coin Miner](Coin%20Miner)
@@ -29,6 +28,7 @@ Nothing to see yet
 - [C my program](C%20my%20program)
 
 ## Sanity
+- [Hell's Programmer](Hell's%20Programmer)
 - [Up the Base](Up%20the%20Base)
 
 ## Web
