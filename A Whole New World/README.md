@@ -18,9 +18,11 @@ I've been playing lots of games lately. I hope I can still score at least GPA 2.
 1. Run mcedit select an area. Run the `randomGen.py` filter.
 2. Go into Minecraft and put a random dispenser with a book containing the flag.
 
-
 ## Distribution
-A whole new world.zip
+A zip file containing Minecraft world save data
+- A whole new world.zip
+	- region
+	- level.dat
 
 ## Solution
 There are multiple ways to solve this challenge.
@@ -31,7 +33,7 @@ Firstly, you must know how that the zip files contain Minecraft world save data.
 
 Create a entity to represent a pointer.
 
-Use `/execute ~ ~ ~ detect ~ ~ ~ minecraft:dispenser /say Found Dispenser!`
+Use `/execute ~ ~ ~ detect ~ ~ ~ minecraft:dispenser /say Found Dispenser!` or `/fill <x1> <y1> <z1> <x2> <y2> <z2> air 0 replace <block id>`
 
 Run and search blah blah blah <b>NOPE!</b>
 
