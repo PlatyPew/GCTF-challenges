@@ -1,7 +1,7 @@
 # A Whole New World
 A challenge to kill technically skilled people.
 
-<i>Creator - @Platy &amp; @pauxy</i>
+<i>Creators - @Platy &amp; @pauxy</i>
 
 ## Category
 Misc
@@ -56,7 +56,7 @@ def perform(level,box,options):
 					level.setBlockAt(x,y,z,0)
 ```
 
-This is a stupid yet ingenious.
+This is stupid yet ingenious.
 
 ### Flag
 `GCTF{0n3_1n_4_m1ll10n}`
