@@ -20,8 +20,8 @@ Nothing to see yet
 - [Hell's Programmer](Hell's%20Programmer)
 
 ## Programming
-- [Coin Miner](Coin%20Miner) <i>(Backend incomplete)</i>
-- [Find mah monehs](Find%20mah%20monehs) <i>(Docker incomplete)</i>
+- [Coin Miner](Coin%20Miner)
+- [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
 - [Bashing](Bashing) <i>(Docker incomplete)</i>

@@ -9,13 +9,13 @@ Programming
 ## Question
 >I'm running low on cash right now. Luckily, I found this virtual currency that uses inputs that when hashed, produce a hexdigest in which the first 2 characters are '00'. I just need 20 of them. Thanks.
 >
->Connect via `nc 127.0.0.1`
+>Connect via `nc 127.0.0.1 31337`
 
 ### Hint
 You can use random character generator
 
 ## Setup Guide
-TODO
+Do `bash start.sh` and do `docker start coin`
 
 ## Distribution
 None.
@@ -36,7 +36,7 @@ If the hash starts with '00', send it to the server
 Working solution `solution.py` in solution directory
 
 ### Flag
-Flag: flag{this_is_a_flag}
+`GCTF{70d4y_c01n_m1n3r_70m0rr0w_b17c01n}`
 
 ## Credits
 None.
