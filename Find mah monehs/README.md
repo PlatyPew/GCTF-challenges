@@ -58,7 +58,7 @@ Once you have completed, you can run your program and voila!
 Working program in solution.
 
 ### Flag
-Flag: GCTF{1_w45_br0k3_bu7_n0_m0r3}
+`GCTF{1_w45_br0k3_bu7_n0_m0r3}`
 
 ## Credits
 None.
