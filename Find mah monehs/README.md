@@ -9,21 +9,22 @@ Programming
 ## Question
 >NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 >
->Connect via `nc 127.0.0.1 13337`
+>Connect via `nc localhost 13337` (Change the IP to server)
 
 ### Hint
 PATH FINDIN ALGORITHM M8
 
 ## Setup Guide
-Do `bash start.sh`
+Do `bash start.sh` and run `docker start money`
 
 ## Distribution
-5 sample files for testing
-- sample1.txt
-- sample2.txt
-- sample3.txt
-- sample4.txt
-- sample5.txt
+Zip file containing 5 sample files for testing
+- monehs.zip
+  - sample1.txt
+  - sample2.txt
+  - sample3.txt
+  - sample4.txt
+  - sample5.txt
 
 ## Solution
 To start off, this challenge has nothing to do with lolcat I just wanted to have some fun.
@@ -44,7 +45,7 @@ Alright so getting right into it, when we connect to a service we are greeted wi
 
 TEH ANZWR WILL BE: aaaawwwa
 ```
-Basically, we want to give directions to get from the `@` to the `$` using the 'wasd' keys to navigate. Easy enough right? The program only gives us 1 second to calculate the path. So it's time to program.
+Basically, we want to give directions to get from the `@` to the `$` using the 'wasd' keys to navigate. Easy enough right? The program only gives us 3 seconds to calculate the path. So it's time to program.
 
 Using sockets in python, we can create a pathfinding algorithm.
 
@@ -57,7 +58,7 @@ Once you have completed, you can run your program and voila!
 Working program in solution.
 
 ### Flag
-Flag: flag{this_is_a_flag} (Change to desired flag)
+Flag: GCTF{1_w45_br0k3_bu7_n0_m0r3}
 
 ## Credits
 None.
