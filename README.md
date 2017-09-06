@@ -29,7 +29,7 @@ Nothing to see yet
 - [C my program](C%20my%20program)
 
 ## Sanity
-Nothing to see yet
+- [Up the Base](Up%20the%20Base)
 
 ## Web
 - [Cookie Monster](Cookie%20Monster) <i>(Backend incomplete)</i>
