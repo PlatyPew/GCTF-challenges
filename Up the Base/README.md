@@ -40,7 +40,7 @@ print(base65536.decode(value).decode())
 ```
 
 ### Flag
-`GCTF{1f_17_l00k5_57up1d_bu7_17_w0rk5_17_41n7_57up1d}'`
+`GCTF{1f_17_l00k5_57up1d_bu7_17_w0rk5_17_41n7_57up1d}`
 
 ## Credits
 None.
