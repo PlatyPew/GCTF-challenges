@@ -1,12 +1,12 @@
-FROM ubuntu:latest
+FROM php:7.0-apache
 RUN apt-get update
 RUN apt-get install -y python2.7
-RUN apt-get install apache2
-COPY ./index.html /var/www/index.html
-COPY ./notsoeasy.html /var/www/html/notsoeasy.html
-COPY ./list.txt /var/www/html/list.txt
-COPY ./read.py /var/www/html/read.py
-COPY ./view.php /var/www/html/view.php
-COPY ./robots.txt /var/www/html/robots.txt
-EXPOSE 8000
+COPY ./gaia.css /var/www/html/.
+COPY ./gaia.jpg /var/www/html/.
+COPY ./index.html /var/www/html/.
+COPY ./list.txt /var/www/html/.
+COPY ./notsoeasy.html /var/www/html/.
+COPY ./read.py /var/www/html/.
+COPY ./robots.txt /var/www/html/.
+COPY ./view.php /var/www/html/.
 CMD ["service","apache2","start"]

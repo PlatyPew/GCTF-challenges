@@ -7,7 +7,7 @@ import threading
 PORT = 13337 # Change to desired port
 TIMEOUT = 3.0
 
-FLAG = 'flag{this_is_a_flag}'
+FLAG = 'GCTF{1_w45_br0k3_bu7_n0_m0r3}'
 
 DEFAULT_SIZE = 5 # Must be > 2. More than 10 for best results
 ROUNDS = 100 # Number of rounds
