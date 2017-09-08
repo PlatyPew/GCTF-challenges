@@ -32,7 +32,7 @@ Challenges without links are incomplete or still planning.
 - [Up the Base](Up%20the%20Base)
 
 ## Web
-- [Cookie Monster](Cookie%20Monster) <i>(Backend incomplete)</i>
+- [Cookie Monster](Cookie%20Monster)
 - [Saving Gaia](Saving%20Gaia)
 
 # Credits
