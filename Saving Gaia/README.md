@@ -15,7 +15,7 @@ Web
 `Are you feeling salty? Would you like to have a hashbrown?`
 
 ## Setup Guide
-Do `bash start.sh`
+Do `bash start.sh` and run `docker start gaia`
 
 ## Distribution
 No files to be distributed
