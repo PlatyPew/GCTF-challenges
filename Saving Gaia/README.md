@@ -9,7 +9,7 @@ Web
 ## Question
 >Please save the environment to get the flag!
 >
->Connect via `http://localhost`
+>Connect via `http://localhost:33333`
 
 ### Hint
 `Are you feeling salty? Would you like to have a hashbrown?`
