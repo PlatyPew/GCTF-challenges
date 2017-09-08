@@ -33,7 +33,7 @@ Challenges without links are incomplete or still planning.
 
 ## Web
 - [Cookie Monster](Cookie%20Monster) <i>(Backend incomplete)</i>
-- [Saving Gaia](Saving%20Gaia) <i>(Docker incomplete)</i>
+- [Saving Gaia](Saving%20Gaia)
 
 # Credits
 <i>Creator - @PlatyPooper</i>
