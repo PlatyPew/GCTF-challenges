@@ -12,7 +12,7 @@
 			<h2>Here are our proud supporters!</h2>
 			<article>
 				<?php
-					putenv("Flag=flag{this_is_a_flag}");
+					putenv("Flag=GCTF{6l0b4l_w4rm1n6_15_r34lz}");
 					$SECRET = "YvrL1KbyV8VPUneie2M7";
 					$file = $_POST["file"];
 					$mac = $_POST["mac"];

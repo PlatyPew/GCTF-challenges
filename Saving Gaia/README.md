@@ -69,7 +69,7 @@ Hash length extension works because the mac was generated with terrible algorith
 Using hashpump, we are able to append our own file location and the new generated hash. For the file, we are using `66696c656c6f636174696f6e2c6c6973742e74787480000000000000000000000000000000000000000001482c2f70726f632f73656c662f656e7669726f6e` and for the mac we are using this `641c68dcb0b1adc7f2d100717b5cc796b11287a6`. Press show and this pops up all the environment variables pop up.
 
 ### Flag
-Flag: flag{this_is_a_flag} (Change to desired flag)
+Flag: GCTF{6l0b4l_w4rm1n6_15_r34lz}
 
 ## Credits
 Google CTF - 2017
