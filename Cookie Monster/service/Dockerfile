@@ -12,6 +12,8 @@ COPY ./phantomjs /tmp/.
 COPY ./cookie.txt /tmp/.
 COPY ./image.js /tmp/.
 COPY ./run.py /tmp/.
+COPY ./setup.sh /tmp/.
 EXPOSE 80 44445
-CMD apachectl -D FOREGROUND
+WORKDIR /tmp
+ENTRYPOINT ["bash","setup.sh"]
 

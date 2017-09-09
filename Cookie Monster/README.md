@@ -18,7 +18,7 @@ None.
 None.
 
 ## Setup Guide
-Run `bash start.sh`, do `docker exec -it cookie bash`, enter the shell and do `cd /tmp && python run.py`
+Run `bash start.sh` and do `docker start cookie`
 
 ## Solution
 Upon going on to the website, we can see a nice image viewer. Whatever you placed in the input field, the image will get displayed.
