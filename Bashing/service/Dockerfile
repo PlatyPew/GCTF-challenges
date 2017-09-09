@@ -1,20 +1,16 @@
 FROM ubuntu:latest
-ENV user1=bashing
-ENV user2=bashing_pwn
 RUN apt-get update
-RUN apt-get install -y python2.7
-RUN useradd -m $user2
-RUN useradd $user1
-COPY ./bash.py /home/$user2/bash.py
-COPY ./flag.txt /home/$user2/flag.txt
-COPY ./v13wF1a6 /home/$user2/.v13wF1a6
-RUN chown $user2 /home/$user2/bash.py
-RUN chmod 755 /home/$user2/bash.py
-RUN chown $user2 /home/$user2/flag.txt
-RUN chmod 400 /home/$user2/flag.txt
-RUN chown $user2 /home/$user2/.v13wF1a6
-RUN chmod 4755 /home/$user2/.v13wF1a6
-USER $user1
-WORKDIR /home/$user2
+RUN apt-get -y install python
+RUN useradd -m bashing
+COPY ./bash.py /home/bashing/.
+COPY ./thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt /home/bashing/.
+RUN chown root:bashing /home/bashing/bash.py
+RUN chmod 755 /home/bashing/bash.py
+RUN chown root:bashing /home/bashing/thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt
+RUN chmod 440 /home/bashing/thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt
+RUN chown root:bashing /home/bashing
+RUN chmod 755 /home/bashing
+USER bashing
+WORKDIR /home/bashing
 EXPOSE 25000
-CMD ["/home/bashing_pwn/bash.py"]
+CMD ["python","/home/bashing/bash.py"]

@@ -9,13 +9,13 @@ Pwn
 ## Question
 >You are not yourself when you are hungry. Have a CTF challenge and stop <i>bashing</i> people up.
 >
->Connect via `nc 127.0.0.1 2500` (Change to desired ip address and port)
+>Connect via `nc 127.0.0.1 25000`
 
 ### Hint
 `I hate needles`
 
 ## Setup Guide
-Do `bash start.sh`
+Do `bash start.sh` and do `docker start bashing`
 
 ## Distribution
 None.
@@ -52,7 +52,7 @@ First, we should try using cat to view the contents of all the files. But how ca
 
 So we can use special characters and the letters `n` and `f`. Now we're getting somewhere. Unix has autocompletion functions. Typing out `cat *` well expand to `cat <filename>`. The asterisk represents any number of characters. The question marks represents only one character.
 
-So by inputting `/??n/??? *`, we manage to view all the files on the folder as well as some system files. This reveals the python script and shows what it is actually doing
+So by inputting `/??n/??? ./*`, we manage to view all the files in the current directory. This reveals the python script and shows what it is actually doing
 
 ```python
 def getFlag():
@@ -101,11 +101,11 @@ Basically, we have shell access with a very troublesome way to run commands.
 
 We can now use `ls -la` to find if there are any interesting files.
 
-There are 2 files, `flag.txt` and `.v13wF1a6`. We do not have permission to view the `flag.txt`, however, when `.v13wF1a6` runs, the program runs as user 'bashing_pwn' which happens to be the owner of `flag.txt`.
+We can see this file called `thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt`
 
-Running the program shows this: `Requires argv[1] as password`. Great! Now we need a password. Using `strings .v13wF1a6` we are able to deduce that the password is `f1ag_iz_n0t_f4r_aw4y_if_y0u_believ3`.
+Cat the file and get the flag
 
-Running the program again with the correct password gives you the flag. Final command is in `solution.txt` in the solution folder.
+Final command is in `solution.txt` in the solution folder.
 
 Phew! That was very lengthy and probably a lot to absorb.
 

@@ -23,7 +23,7 @@ Challenges without links are incomplete or still planning.
 - [Find mah monehs](Find%20mah%20monehs)
 
 ## Pwn
-- [Bashing](Bashing) <i>(Docker incomplete)</i>
+- [Bashing](Bashing)
 - ~~Brain Sprain~~ (RIP FAM)
 - [C my program](C%20my%20program)
 
