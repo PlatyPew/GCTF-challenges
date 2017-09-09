@@ -10,6 +10,7 @@ RUN chown root:bashing /home/bashing/thisisaverylongflagbutineedittobethislongso
 RUN chmod 440 /home/bashing/thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt
 RUN chown root:bashing /home/bashing
 RUN chmod 755 /home/bashing
+RUN chmod 755 /tmp
 USER bashing
 WORKDIR /home/bashing
 EXPOSE 25000
