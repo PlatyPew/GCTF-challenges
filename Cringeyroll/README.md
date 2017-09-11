@@ -4,7 +4,7 @@ Changing HTML elements
 <i>Creator - @Platy</i>
 
 ## Category
-Web
+Sanity
 
 ## Question
 >Here comes the anime awards! However, other mainstream anime are winning! As a fangirl of Yuri On Ice, I'm getting triggered. Hack the awards and make the points of Yuri On Ice 1000000! I'll give you the flag if you manage to.
