@@ -21,6 +21,7 @@ Challenges without links are incomplete or still planning.
 ## Programming
 - [Coin Miner](Coin%20Miner)
 - [Find mah monehs](Find%20mah%20monehs)
+- [Lecturer Says](Lecturer%20Says)
 
 ## Pwn
 - [Bashing](Bashing)
