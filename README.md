@@ -25,7 +25,7 @@ Challenges without links are incomplete or still planning.
 
 ## Pwn
 - [Bashing](Bashing)
-- ~~Brain Sprain~~ (RIP FAM)
+- ~~Brain Sprain~~ (Discontinued)
 - [C my program](C%20my%20program)
 
 ## Sanity
@@ -34,6 +34,7 @@ Challenges without links are incomplete or still planning.
 
 ## Web
 - [Cookie Monster](Cookie%20Monster)
+- Fish shoops
 - [Saving Gaia](Saving%20Gaia)
 
 # Credits
