@@ -1,0 +1,35 @@
+Communicating for Project (Report) Effectiveness
+General Education 1
+General Education 2
+Mathematics
+Education and Career Guidance 1
+Essential LINUX System Administration
+Database Management Systems
+Infocomm Security
+Web Client Development
+Network Fundamentals
+Programming Fundamentals
+Computer Architecture and Operating Systems
+Programming in Python and C
+Communicating for Professional Effectiveness
+Social Innovation Project
+General Education 3
+Education and Career Guidance 2
+Enterprise Application Development
+Computer Law and Investigation
+Applied Cryptography
+Digital Forensics and Investigation
+Ethical Hacking and Defences
+Securing Microsoft Windows
+Securing Linux
+Geospatial Visualization
+Enterprise Business Processes
+Mobile Applications
+Internship Programme
+InfoSec Project Development and Management
+Security Policy and Incident Management
+Malware Reverse Engineering
+Advanced Java Programming
+Internet of Things
+Business Analytics
+Wireless LAN Technology
