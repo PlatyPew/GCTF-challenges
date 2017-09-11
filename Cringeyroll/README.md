@@ -52,7 +52,7 @@ Too easy.
 `GCTF{7h3_4n1m3_4w4rd5_w3r3_r1663d}`
 
 ## Credits
-Some challenged in hack this site.
+Some challenge in hack this site.
 
 ## Recommended Reads
 None.
