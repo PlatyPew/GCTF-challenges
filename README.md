@@ -33,6 +33,7 @@ Challenges without links are incomplete or still planning.
 - [Up the Base](Up%20the%20Base)
 
 ## Web
+- [Cringeyroll](Cringeyroll)
 - [Cookie Monster](Cookie%20Monster)
 - Fish shoops
 - [Saving Gaia](Saving%20Gaia)
