@@ -99,15 +99,74 @@ There is a generator `solution.py` in the solution folder to generate the comman
 
 Basically, we have shell access with a very troublesome way to run commands.
 
-We can now use `ls -la` to find if there are any interesting files.
+We can now use `ls -la` to find if there are any interesting files. Remember to separate the 2 commands and pipe it in manually. Also, do not redefine the functions again.
 
-We can see this file called `thisisaverylongflagbutineedittobethislongsothatpeoplecannotbruteforceit.txt`
+We find a file called `f14g` which when cat, does not show us a flag, but a clue to where the next flag is. Do `ls -l -d -1 /*/* | grep flag` to find if there are any interesting files. Remember to separate the 2 commands and pipe it in manually. Also, do not redefine the functions again.
 
-Cat the file and get the flag
+```bash
+n(){ /*/??n/???n?f ${@}; }; f(){ n ${#}; };$(n $(n \\\\`f "" ; f "" "" "" "" "" ; f "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" "" ; f "" "" "" ; `;n \\\\`f "" "" "" "" ; f ; `;n \\\\`f "" "" "" "" "" ; f "" "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" ; f "" ; `;n \\\\`f "" "" "" "" ; f ; `;n \\\\`f "" "" "" "" "" ; f "" "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" ; f "" "" "" "" ; `;n \\\\`f "" "" "" "" ; f ; `;n \\\\`f "" "" "" "" "" ; f "" "" "" "" "" ; `;n \\\\`f "" "" "" "" "" "" ; f "" ; `;n \\\\`f "" "" "" "" ; f ; `;n \\\\`f "" "" "" "" "" ; f "" "" "" "" "" "" "" ; `;n \\\\`f "" "" "" "" "" ; f "" "" ; `;n \\\\`f "" "" "" "" "" ; f "" "" "" "" "" "" "" ; `;n \\\\`f "" "" "" "" "" ; f "" "" ; `;)) | $(n $(n \\\\`f "" ; f "" "" "" "" ; f "" "" "" "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" "" ; f "" "" ; `;n \\\\`f "" ; f "" "" "" "" ; f "" "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" "" ; f ; `;n \\\\`f "" "" "" "" ; f ; `;n \\\\`f "" ; f "" "" "" "" ; f "" "" "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" "" ; f "" "" "" "" ; `;n \\\\`f "" ; f "" "" "" "" ; f "" ; `;n \\\\`f "" ; f "" "" "" "" ; f "" "" "" "" "" "" "" ; `;))
+```
 
-Final command is in `solution.txt` in the solution folder.
+We can see this file called `/bin/thisisareallylongflagbutifyoucansomehowcatthisitwouldbeamazing`
 
-Phew! That was very lengthy and probably a lot to absorb.
+Cat the file and you can see assembler code
+
+```asm
+(gdb) disas main
+Dump of assembler code for function main:
+   0x00000000000006b0 <+0>:	push   rbp
+   0x00000000000006b1 <+1>:	mov    rbp,rsp
+   0x00000000000006b4 <+4>:	push   0x7d
+   0x00000000000006b6 <+6>:	push   0x68
+   0x00000000000006b8 <+8>:	push   0x37
+   0x00000000000006ba <+10>:	push   0x6c
+   0x00000000000006bc <+12>:	push   0x34
+   0x00000000000006be <+14>:	push   0x33
+   0x00000000000006c0 <+16>:	push   0x68
+   0x00000000000006c2 <+18>:	push   0x5f
+   0x00000000000006c4 <+20>:	push   0x72
+   0x00000000000006c6 <+22>:	push   0x30
+   0x00000000000006c8 <+24>:	push   0x66
+   0x00000000000006ca <+26>:	push   0x5f
+   0x00000000000006cc <+28>:	push   0x64
+   0x00000000000006ce <+30>:	push   0x34
+   0x00000000000006d0 <+32>:	push   0x62
+   0x00000000000006d2 <+34>:	push   0x5f
+   0x00000000000006d4 <+36>:	push   0x35
+   0x00000000000006d6 <+38>:	push   0x31
+   0x00000000000006d8 <+40>:	push   0x5f
+   0x00000000000006da <+42>:	push   0x36
+   0x00000000000006dc <+44>:	push   0x6e
+   0x00000000000006de <+46>:	push   0x31
+   0x00000000000006e0 <+48>:	push   0x68
+   0x00000000000006e2 <+50>:	push   0x35
+   0x00000000000006e4 <+52>:	push   0x34
+   0x00000000000006e6 <+54>:	push   0x62
+   0x00000000000006e8 <+56>:	mov    r9d,0x7b
+   0x00000000000006ee <+62>:	mov    r8d,0x46
+   0x00000000000006f4 <+68>:	mov    ecx,0x54
+   0x00000000000006f9 <+73>:	mov    edx,0x43
+   0x00000000000006fe <+78>:	mov    esi,0x47
+   0x0000000000000703 <+83>:	lea    rdi,[rip+0xae]        # 0x7b8
+   0x000000000000070a <+90>:	mov    eax,0x0
+   0x000000000000070f <+95>:	call   0x560 <printf@plt>
+   0x0000000000000714 <+100>:	add    rsp,0xd0
+   0x000000000000071b <+107>:	mov    eax,0x0
+   0x0000000000000720 <+112>:	leave  
+   0x0000000000000721 <+113>:	ret    
+End of assembler dump.
+```
+
+As we can see, a lot of values are being pushed into the stack. And at the end, it calls the `printf` function.
+
+We can store all the items in the stack and decode it into ascii using a small python script
+
+```python
+values = [0x47,0x43,0x54,0x46,0x7b,0x62,0x34,0x35,0x68,0x31,0x6e,0x36,0x5f,0x62,0x34,0x64,0x5f,0x66,0x30,0x72,0x5f,0x68,0x33,0x34,0x6c,0x37,0x68,0x7d]
+for i in values:
+	print(chr(i),end='')
+print()
+```
 
 ### Flag
 `GCTF{b45h1n6_15_b4d_f0r_h34l7h}`
