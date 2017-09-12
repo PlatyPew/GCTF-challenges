@@ -89,8 +89,8 @@
 				<p><?php $value = -200 + $_POST["yoi"]; echo $value; ?> points</p>
 				<?php
 					if ($value === 1000000) {
-							echo "<p>GCTF{7h3_4n1m3_4w4rd5_w3r3_r1663d}</p>";
-						}
+						echo "<p>GCTF{7h3_4n1m3_4w4rd5_w3r3_r1663d}</p>";
+					}
 				?>
 			</article>
 			<form action="index.php" method="POST">

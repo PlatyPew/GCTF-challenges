@@ -4,6 +4,7 @@ service mysql start
 service apache2 start
 
 mysql -u root -e """
+drop database exampleDB;
 SET PASSWORD = PASSWORD('de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z');
 CREATE USER 'fishies'@'localhost' IDENTIFIED BY 'de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z';
 GRANT SELECT, INSERT, CREATE ON fishshoups.* TO 'fishies'@'localhost';
@@ -30,4 +31,11 @@ INSERT INTO `fishshoups`.`fish_shop` (`id`, `name`, `description`, `image`, `cos
 INSERT INTO `fishshoups`.`fish_shop` (`id`, `name`, `description`, `image`, `cost`) VALUES ('17', 'Platinum Alligator Gar', 'Aggressive and hardy species, easy to maintain, just need food', ' ', '160.00');
 
 CREATE TABLE `fishshoups`.`user_details_login` (`user` VARCHAR(45) NOT NULL, `password` VARCHAR(100) NOT NULL, `role` VARCHAR(45) NOT NULL, PRIMARY KEY (`user`));
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('moony', 'amsrISawesome', 'member');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('potatatoe', 'IamBLUE', 'member');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('fisheu', 'IswimDEmany', 'admin');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('Pokey', 'CookiePore', 'member');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('Merrkat', 'duckOOO', 'member');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('Darlie', 'secretlyL', 'member');
+INSERT INTO fishshoups.user_details_login (`user`, password, `role`) VALUES ('Pusheen', 'immaGREY', 'member');
 """

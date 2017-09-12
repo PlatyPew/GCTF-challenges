@@ -1,4 +1,4 @@
-# Name of challenge
+# Cringeyroll
 Changing HTML elements
 
 <i>Creator - @Platy</i>
@@ -43,7 +43,7 @@ Points will now be 1,000,000
 
 <b>Curl</b>
 ```bash
-curl 'http://192.168.159.131:30000/index.php' -H 'Origin: http://192.168.159.131:30000' --data 'yoi=1000200' | grep GCTF
+curl 'http://192.168.159.131:30000/index.php'--data 'yoi=1000200' | grep GCTF
 ```
 
 Too easy.

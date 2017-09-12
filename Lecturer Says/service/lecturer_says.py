@@ -5,7 +5,7 @@ import random
 from sys import exit
 
 PORT = 9999
-TIMEOUT = 60.0
+TIMEOUT = 2.0
 
 GREEN = '\033[92m'
 RED = '\033[91m'
