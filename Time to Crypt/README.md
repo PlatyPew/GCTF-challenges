@@ -16,11 +16,11 @@ She did not fully understand that 'OT' in 'OTP' stands for 'One-Time'
 Compile `OTP.java` and run in generate directory (I have no idea how to javac packages)
 
 ## Distribution
-Java Source Code
-- OTP.java
-
-Java Serialisation Data
-- output
+Zip file
+- Java Source Code
+	- OTP.java
+- Java Serialisation Data
+	- output
 
 ## Solution
 Starting off, the number of possible keys generated is `2 ^ (8 * 30)` which is `1766847064778384329583297500742918515827483896875618958121606201292619776`.

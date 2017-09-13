@@ -16,11 +16,13 @@ Feistel. Just Feistel.
 Do `make all` in generate directory
 
 ## Distribution
-Compile Java Class Data
-- Lolwhut.class
-
-Java Serialization Data
-- output
+Zip file
+- Compile Java Class Data
+	- Lolwhut.class
+	- Data.class
+	- Flag.class
+- Java Serialization Data
+	- output
 
 ## Solution
 Upon decompiling the files with some external programs such as [JD-Gui](http://jd.benow.ca/), we can retrieve the original source code.
@@ -70,41 +72,6 @@ DES/ECB/PKCS5Padding
 ```
 The algorithm is `DES` and the cipher mode is `DES/ECB/PKCS5Padding`. With this information, we are one step closer to solving this challenge.
 
-By recompiling the Java source code, we get some errors about not having `Flag` or `Data` which are value beans used to create objects. Once again, we can study `Lolwhut.class` and rewrite those classes.
-```java
-// Flag.java
-import java.io.Serializable;
-public class Flag implements Serializable {
-    private final String flag;
-    public Flag(String flag) {
-        this.flag = flag;
-    }
-    public String getFlag() {
-        return this.flag;
-    }
-}
-```
-and
-```java
-// Data.java
-import java.io.Serializable;
-import javax.crypto.SealedObject;
-import javax.crypto.SecretKey;
-public class Data implements Serializable {
-	private final SealedObject sealed;
-	private final SecretKey key;
-	public Data(SealedObject sealed, SecretKey key) {
-		this.sealed = sealed;
-		this.key = key;
-	}
-	public SealedObject getSealed() {
-		return sealed;
-	}
-	public SecretKey getKey() {
-		return key;
-	}
-}
-```
 Now all we have left to do is to extract out the key and data from the file, use the key to decrypt the flag object and to get the flag.
 
 Working solution in solution directory.

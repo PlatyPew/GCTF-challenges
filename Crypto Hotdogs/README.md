@@ -16,11 +16,11 @@ Attack the sausages!
 Do `make all` in generate directory
 
 ## Distribution
-Encrypted Data
-- flag.bin
-
-RSA Public Key
-- public.pem
+Zip file
+- Encrypted Data
+	- flag.bin
+- RSA Public Key
+	- public.pem
 
 ## Solution
 We can start by extracting the values required to decrypt using `openssl rsa -pubin -text -noout -in public.pem`
