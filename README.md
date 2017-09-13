@@ -4,9 +4,6 @@ Challenges included in the Gryphon Capture The Flag Competition 2017
 # Challenges
 Challenges without links are incomplete or still planning.
 
-## Bin
-- [Depresso Espresso](Depresso%20Espresso)
-
 ## Crypto
 - [Crypto Hotdogs](Crypto%20Hotdogs)
 - [Time to Crypt](Time%20to%20Crypt)
@@ -26,7 +23,10 @@ Challenges without links are incomplete or still planning.
 ## Pwn
 - [Bashing](Bashing)
 - ~~Brain Sprain~~ (Discontinued)
+
+## Reversing
 - [C my program](C%20my%20program)
+- [Depresso Espresso](Depresso%20Espresso)
 
 ## Sanity
 - [Cringeyroll](Cringeyroll)
