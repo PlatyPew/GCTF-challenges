@@ -8,12 +8,14 @@ Programming
 
 ## Question
 >Exam is coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
+>
+>Connect via `nc <ip address> 17457`
 
 ### Hint
 None.
 
 ## Setup Guide
-Do `bash start.sh` and run `docker start lecturersays`
+Do `bash build.sh`
 
 ## Distribution
 None.

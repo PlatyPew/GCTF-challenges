@@ -9,13 +9,13 @@ Web
 ## Question
 >Please save the environment to get the flag!
 >
->Connect via `http://localhost:33333`
+>Connect via `http://<ip address> 17458`
 
 ### Hint
 `Are you feeling salty? Would you like to have a hashbrown?`
 
 ## Setup Guide
-Do `bash start.sh` and run `docker start gaia`
+Do `bash build.sh`
 
 ## Distribution
 No files to be distributed

@@ -2,20 +2,21 @@
 
 ## Question Text
 
-Help all marshmellow fart and skittle burp fishes!!!
+>Help all marshmellow fart and skittle burp fishes!!!
+>
+>We forgot the credentials of our blog account because we have small brains!
+>
+>Log into it to get your awesome reward of helping us, we are nice creatures!
+>
+>But remember to keep it a secret! Shhh...
+>Connect via `http://<ip address> 17456`
 
-We forgot the credentials of our blog account because we have small brains!
-
-Log into it to get your awesome reward of helping us, we are nice creatures!
-
-But remember to keep it a secret! Shhh...
-
-Created by
+## Created by
 
 @stopduckroll &amp; @paux &amp; @platy
 
 ## Setup Guide
-Do `bash start.sh`
+Do `bash build.sh`
 
 ## Distribution
 None.

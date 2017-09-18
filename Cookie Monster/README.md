@@ -9,7 +9,7 @@ Web
 ## Question
 >Cookie monster has stolen my cookies again! And apparently, he learnt how to create a website to get more cookies! He is accepting nice images from users and running it on his image viewer using what he thinks is the best browser, Internet Explorer. Retrieve the cookie he has that he stole from me! Thanks!
 >
->Connect via `http://localhost:44444` and `nc localhost 44445`
+>Connect via `http://<ip address>:17452` and `nc <ip address> 17453`
 
 ### Hint
 None.
@@ -18,7 +18,7 @@ None.
 None.
 
 ## Setup Guide
-Run `bash start.sh` and do `docker start cookie`
+Run `bash build.sh`
 
 ## Solution
 Upon going on to the website, we can see a nice image viewer. Whatever you placed in the input field, the image will get displayed.

@@ -9,13 +9,13 @@ Pwn
 ## Question
 >You are not yourself when you are hungry. Have a CTF challenge and stop <i>bashing</i> people up.
 >
->Connect via `nc 127.0.0.1 25000`
+>Connect via `nc <ip address> 17450`
 
 ### Hint
 `I hate needles`
 
 ## Setup Guide
-Do `bash start.sh` and do `docker start bashing`
+Do `bash build.sh`
 
 ## Distribution
 None.

@@ -9,13 +9,13 @@ Programming
 ## Question
 >NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 >
->Connect via `nc localhost 13337` (Change the IP to server)
+>Connect via `nc <ip address> 17455`
 
 ### Hint
 PATH FINDIN ALGORITHM M8
 
 ## Setup Guide
-Do `bash start.sh` and run `docker start money`
+Do `bash build.sh`
 
 ## Distribution
 Zip file containing 5 sample files for testing
