@@ -152,8 +152,8 @@ Dump of assembler code for function main:
    0x000000000000070f <+95>:	call   0x560 <printf@plt>
    0x0000000000000714 <+100>:	add    rsp,0xd0
    0x000000000000071b <+107>:	mov    eax,0x0
-   0x0000000000000720 <+112>:	leave  
-   0x0000000000000721 <+113>:	ret    
+   0x0000000000000720 <+112>:	leave
+   0x0000000000000721 <+113>:	ret
 End of assembler dump.
 ```
 
@@ -182,4 +182,5 @@ Misc.
 hohoho - 350pts
 
 ## Recommended Reads
-None.
+- https://www.youtube.com/watch?v=6D1LnMj0Yt0
+- https://linux.die.net/man/1/bash

@@ -67,4 +67,5 @@ This is stupid yet ingenious.
 None.
 
 ## Recommended Reads
-None.
+- https://github.com/mcedit/mcedit
+- https://www.youtube.com/watch?v=NIRDHS3_xMQ&list=PL1nWzwiv3nc2dSOtVihY_AQE_1INse74T

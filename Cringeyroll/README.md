@@ -55,4 +55,4 @@ Too easy.
 Some challenge in hack this site.
 
 ## Recommended Reads
-None.
+- https://null-byte.wonderhowto.com/how-to/hack-site-knowing-bit-html-hackthissite-org-part-1-0161954/

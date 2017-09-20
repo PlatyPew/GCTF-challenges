@@ -26,7 +26,7 @@ Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and past
 `GCTF{m4lb0l63_15_0n3_h3ll_0f_4_h07_pl4c3}`
 
 ## Credits
-None.
+http://zb3.me/malbolge-tools/#generator
 
 ## Recommended Reads
 None.

@@ -42,4 +42,5 @@ Working solution `solution.py` in solution directory
 None.
 
 ## Recommended Reads
-None.
+- https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits-in-python
+- https://docs.python.org/2/library/hashlib.html

@@ -80,7 +80,7 @@ Working solution in solution directory.
 `GCTF{d35_l0v35_4_6r347_c1ph3r}`
 
 ## Credits
-None.
+- https://github.com/java-decompiler/jd-gui
 
 ## Recommended Reads
 None.

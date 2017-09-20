@@ -27,7 +27,8 @@ Write program to filter the brainf*ck syntax
 `GCTF{br41n5_5pr41n3d_b4d}`
 
 ## Credits
-None.
+https://copy.sh/brainfuck/text.html
 
 ## Recommended Reads
-None.
+- https://en.wikipedia.org/wiki/Brainfuck
+- https://fatiherikli.github.io/brainfuck-visualizer/

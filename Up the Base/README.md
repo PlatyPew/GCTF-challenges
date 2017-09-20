@@ -43,9 +43,7 @@ print(base65536.decode(value).decode())
 `GCTF{1f_17_l00k5_57up1d_bu7_17_w0rk5_17_41n7_57up1d}`
 
 ## Credits
-None.
+https://github.com/qntm/base65536
 
 ## Recommended Reads
 [Will YouTube Ever Run Out Of Video IDs?](https://www.youtube.com/watch?v=gocwRvLhDf8)
-
-[base65536](https://github.com/qntm/base65536)

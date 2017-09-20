@@ -72,4 +72,4 @@ Crypto
 CR2 Many time secrets - 100pts
 
 ## Recommended Reads
-None.
+- https://crypto.stackexchange.com/questions/32795/how-vulnerable-is-the-one-time-pad-otp-encryption-if-the-otp-is-used-twice-w

@@ -32,4 +32,4 @@ Working solution `solution.py` in solution directory
 Simon says? I don't know...
 
 ## Recommended Reads
-None.
+- https://misc.flogisoft.com/bash/tip_colors_and_formatting

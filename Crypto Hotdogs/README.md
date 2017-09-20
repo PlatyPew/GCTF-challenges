@@ -90,7 +90,8 @@ We can use openssl do decrypt `flag.bin`
 `GCTF{w0w_h0770_d06u}`
 
 ## Credits
-None.
+- https://github.com/pablocelayes/rsa-wiener-attack
 
 ## Recommended Reads
-None.
+- https://en.wikipedia.org/wiki/Wiener%27s_attack
+- https://sagi.io/2016/04/crypto-classics-wieners-rsa-attack/

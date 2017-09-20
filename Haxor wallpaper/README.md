@@ -53,7 +53,7 @@ Link the file in html.
 `GCTF{y0u_41n7_h4x0rm4nz}`
 
 ## Credits
-None.
+http://picascii.com/
 
 ## Recommended Reads
-None.
+- https://www.w3schools.com/css/
