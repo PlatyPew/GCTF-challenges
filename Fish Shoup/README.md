@@ -1,4 +1,4 @@
-# FISHSHOUP
+# Fish Shoup
 
 ## Question Text
 
@@ -17,6 +17,8 @@
 
 ## Setup Guide
 Do `bash build.sh`
+
+(It takes 15 seconds for the sql server to initialise. Everything should work after awhile)
 
 ## Distribution
 None.
@@ -39,6 +41,8 @@ None.
 
 ## Credits
 CTF 101.
+
+Thanks @Lflare for fixing mysql issues.
 
 ## Recommended Reads
 None.

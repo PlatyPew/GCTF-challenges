@@ -1,12 +1,24 @@
-FROM linode/lamp:latest
-RUN apt-get update -y && apt-get upgrade -y
-RUN apt-get install php5-mysql
-RUN rm -rfd /var/www/example.com
-RUN rm /etc/apache2/sites-enabled/example.com.conf
-RUN rm /etc/apache2/sites-available/example.com.conf
-RUN rm /var/www/html/index.html
-RUN rmdir /var/www/html
-ADD ./src /var/www
+FROM alpine:latest
+
+# Update packages
+RUN apk --update upgrade && \
+    apk add \
+        apache2 \
+        mysql \
+        mysql-client \
+        php5 \
+        php5-apache2 \
+        php5-mysqli
+
+# Prepare directories
+RUN mkdir -p /run/apache2/ && \
+    mkdir -p /run/mysqld/
+
+# Move source folder
+COPY ./src /var/www/localhost/htdocs/
+
+# Move setup script
 COPY ./setup.sh /
-ENTRYPOINT ["bash","/setup.sh"]
-EXPOSE 80
+
+# Set entrypoint
+CMD /setup.sh

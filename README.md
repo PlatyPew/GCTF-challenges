@@ -14,6 +14,8 @@ Challenges without links are incomplete or still planning.
 ## Misc
 - [A Whole New World](A%20Whole%20New%20World)
 - [Haxor wallaper](Haxor%20wallpaper)
+- [Hell's Programmer](Hell's%20Programmer)
+- [Up the Base](Up%20the%20Base)
 
 ## Programming
 - [Coin Miner](Coin%20Miner)
@@ -30,8 +32,6 @@ Challenges without links are incomplete or still planning.
 
 ## Sanity
 - [Cringeyroll](Cringeyroll)
-- [Hell's Programmer](Hell's%20Programmer)
-- [Up the Base](Up%20the%20Base)
 
 ## Web
 - [Cookie Monster](Cookie%20Monster)

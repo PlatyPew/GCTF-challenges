@@ -1,11 +1,15 @@
-#!/bin/sh
+#! /bin/sh
+##
+# Prepare database and start
+mysql_install_db
+mysqld --user=root &
 
-service mysql start
-service apache2 start
+# Start webserver
+httpd &
 
-mysql -u root -pAdmin2015 -e """
-
-drop database exampleDB;
+# Install database
+sleep 15
+mysql -u root -e """
 SET PASSWORD = PASSWORD('de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z');
 CREATE USER 'fishies'@'localhost' IDENTIFIED BY 'de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z';
 GRANT SELECT, INSERT, CREATE ON fishshoups.* TO 'fishies'@'localhost';
@@ -103,4 +107,6 @@ INSERT INTO fishshoups.user_details_login VALUES ('BYE', 'BYWW', 'member');
 INSERT INTO fishshoups.user_details_login VALUES ('BYEE', 'BYEEEEEEEE', 'member');
 
 """
+
+# Never exit
 tail -f /dev/null
