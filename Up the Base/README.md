@@ -4,7 +4,7 @@ Understanding how Base64 actually works and how it can be extended to higher bas
 <i>Creator - @Platy</i>
 
 ## Category
-Sanity
+Misc.
 
 ## Question
 >My friend has always found that twitter was not able to fit his grandfather story with the measly 140 characters that they give. He recently learned about Base Encoding. Since twitter accepts unicode characters he decided to increase the base
