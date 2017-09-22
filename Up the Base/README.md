@@ -17,7 +17,7 @@ Run `make all`
 
 ## Distribution
 Bin file seemingly filled with Chinese characters
-- output.bin
+- output.bin `MD5: 128d62817031d5fe21821f918fb08fed`
 
 ## Solution
 In base64, the characters used are the all the lowercase and upper case letters, zero to nine and '+' and '/' with '=' used as padding

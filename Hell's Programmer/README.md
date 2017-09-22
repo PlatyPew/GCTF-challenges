@@ -17,7 +17,7 @@ Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#generator) and load the tex
 
 ## Distribution
 ASCII text
-- hell.txt
+- hell.txt `MD5: 1c39f59ad1e2a70fa0e3802ea4194e94`
 
 ## Solution
 Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and paste the text and boom! Flag.

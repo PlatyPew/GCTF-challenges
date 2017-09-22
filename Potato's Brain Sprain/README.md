@@ -18,7 +18,7 @@ Slowly type the characters in the file
 
 ## Distribution
 ASCII text
-- Potato's Brain.txt
+- Potato's Brain.txt `MD5: e1776838d59d51b42a15db8088d2445e`
 
 ## Solution
 Write program to filter the brainf*ck syntax

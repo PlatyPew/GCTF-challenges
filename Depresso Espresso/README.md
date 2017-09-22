@@ -16,13 +16,14 @@ Feistel. Just Feistel.
 Do `make all` in generate directory
 
 ## Distribution
-Zip file
-- Compile Java Class Data
-	- Lolwhut.class
-	- Data.class
-	- Flag.class
-- Java Serialization Data
-	- output
+Zip file `MD5: 046eb2455d042de7b8af0556e160cbed`
+- Depresso Espresso.zip
+	- Compiled Java Class Data
+		- Lolwhut.class
+		- Data.class
+		- Flag.class
+	- Java Serialization Data
+		- output
 
 ## Solution
 Upon decompiling the files with some external programs such as [JD-Gui](http://jd.benow.ca/), we can retrieve the original source code.

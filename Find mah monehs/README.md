@@ -19,7 +19,7 @@ Do `bash build.sh`
 
 ## Distribution
 Zip file containing 5 sample files for testing
-- monehs.zip
+- monehs.zip `MD5: ae642ad7e7fd608ac75da670090424fd`
   - sample1.txt
   - sample2.txt
   - sample3.txt

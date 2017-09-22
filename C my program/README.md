@@ -17,7 +17,7 @@ Do `make all` in generate directory
 
 ## Distribution
 ASCII text
-- program.txt
+- program.txt `MD5: 4afaf3cb5d4934e057d80106d19158e7`
 
 ## Solution
 Upon opening `program.txt`, we are greeted with a huge chunk of base64 text. As the title and description would suggest, this is a C program encoded using base64 so most online tools will not be able to decode it properly.

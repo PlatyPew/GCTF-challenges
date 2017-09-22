@@ -17,10 +17,11 @@ Do `make all` in generate directory
 
 ## Distribution
 Zip file
-- Encrypted Data
-	- flag.bin
-- RSA Public Key
-	- public.pem
+-Crypto Hotdogs.zip `MD5: 7c153234ded94f19ce764c1d18aca339`
+	- Encrypted Data
+		- flag.bin
+	- RSA Public Key
+		- public.pem
 
 ## Solution
 We can start by extracting the values required to decrypt using `openssl rsa -pubin -text -noout -in public.pem`

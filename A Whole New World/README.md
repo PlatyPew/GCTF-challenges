@@ -20,7 +20,7 @@ I've been playing lots of games lately. I hope I can still score at least GPA 2.
 
 ## Distribution
 A zip file containing Minecraft world save data
-- A whole new world.zip
+- A whole new world.zip `MD5: 83f713c07b20842b93fb7806e9a3e4dd`
 	- region
 	- level.dat
 

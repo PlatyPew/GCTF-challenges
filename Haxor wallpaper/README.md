@@ -21,7 +21,7 @@ Remove the inline-styling in the `pre` tag.
 
 ## Distribution
 ASCII text
-- hacker.txt
+- hacker.txt `MD5: 21d994494f213d7d8222615009b65abd`
 
 ## Solution
 It's a html file.
