@@ -17,7 +17,7 @@ Do `make all` in generate directory
 
 ## Distribution
 Zip file
--Crypto Hotdogs.zip `MD5: 7c153234ded94f19ce764c1d18aca339`
+- Crypto Hotdogs.zip `MD5: 7c153234ded94f19ce764c1d18aca339`
 	- Encrypted Data
 		- flag.bin
 	- RSA Public Key
