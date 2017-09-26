@@ -34,6 +34,7 @@ INSERT INTO fishshoups.fish_shop VALUES ('14', 'Red Arrowana', 'The BEST fish to
 INSERT INTO fishshoups.fish_shop VALUES ('15', 'Freshwater Crayfish', 'New to the market, comes in many colors', 'image/RIP_LOBBY-min.jpg', '22');
 INSERT INTO fishshoups.fish_shop VALUES ('16', 'Spotted Gar', 'Very aggressive and hardy fish, but grows VERY fast, keep if have big tank', 'image/spotted_gar-min.jpg', '30.00');
 INSERT INTO fishshoups.fish_shop VALUES ('17', 'Platinum Alligator Gar', 'Aggressive and hardy species, easy to maintain, just need food', 'image/white_gar-min.jpg', '160.00');
+INSERT INTO fishshoups.fish_shop VALUES ('18', 'Poecilia Reticulata', 'A guppy, also known as rainbow fish. It\'s colourful and are great pets. LFlare approves', 'image/sexy_pose.jpg', '3.00');
 
 
 CREATE TABLE fishshoups.user_details_login (user VARCHAR(45) NOT NULL, password VARCHAR(45) NOT NULL, role VARCHAR(45) NOT NULL, PRIMARY KEY (user));

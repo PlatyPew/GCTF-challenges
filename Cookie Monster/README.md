@@ -61,4 +61,4 @@ We can now enter and pretend to be cookie monster to get the flag.
 None.
 
 ## Recommended Reads
-- https://youtu.be/8GwVBpTgR2c?t=4m44s
+None.

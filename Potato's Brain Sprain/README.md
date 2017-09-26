@@ -30,5 +30,4 @@ Write program to filter the brainf*ck syntax
 https://copy.sh/brainfuck/text.html
 
 ## Recommended Reads
-- https://en.wikipedia.org/wiki/Brainfuck
-- https://fatiherikli.github.io/brainfuck-visualizer/
+None.

@@ -4,7 +4,7 @@ Understanding how Base64 actually works and how it can be extended to higher bas
 <i>Creator - @Platy</i>
 
 ## Category
-Misc.
+Sanity
 
 ## Question
 >My friend has always found that twitter was not able to fit his grandfather story with the measly 140 characters that they give. He recently learned about Base Encoding. Since twitter accepts unicode characters he decided to increase the base
@@ -46,4 +46,4 @@ print(base65536.decode(value).decode())
 https://github.com/qntm/base65536
 
 ## Recommended Reads
-[Will YouTube Ever Run Out Of Video IDs?](https://www.youtube.com/watch?v=gocwRvLhDf8)
+None.

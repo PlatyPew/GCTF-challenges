@@ -182,5 +182,4 @@ Misc.
 hohoho - 350pts
 
 ## Recommended Reads
-- https://www.youtube.com/watch?v=6D1LnMj0Yt0
-- https://linux.die.net/man/1/bash
+None.

@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 ADDRESS = 'localhost'
-PORT = 31337
+PORT = 17451
+
+TIME_TO_WAIT = 0.05
 
 import socket, hashlib, random, time
 
@@ -30,7 +32,7 @@ try:
 				break
 		print(value)
 		clientsocket.sendall(value.encode())
-		time.sleep(0.05)
+		time.sleep(TIME_TO_WAIT)
 	print(clientsocket.recv(128).decode())
 
 

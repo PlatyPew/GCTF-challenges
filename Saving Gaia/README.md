@@ -81,5 +81,4 @@ Mindreader - 50pts
 Hashpump
 
 ## Recommended Reads
-- https://en.wikipedia.org/wiki/Length_extension_attack
-- https://blog.skullsecurity.org/2012/everything-you-need-to-know-about-hash-length-extension-attacks
+None.

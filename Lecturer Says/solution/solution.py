@@ -5,7 +5,9 @@ import sys
 GREEN = '\033[92m'
 
 ADDRESS = 'localhost'
-PORT = 9999
+PORT = 17457
+
+TIME_TO_WAIT = 0.01
 
 def main():
 	try:
@@ -25,7 +27,7 @@ def main():
 			else:
 				clientsocket.sendall('No! I won\'t study'.encode())
 				print('No! I won\'t study')
-			time.sleep(0.01)
+			time.sleep(TIME_TO_WAIT)
 		clientsocket.close()
 	except socket.error:
 		print('Cannot connect')
