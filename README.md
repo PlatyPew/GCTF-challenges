@@ -35,7 +35,7 @@ Challenges without links are incomplete or still planning.
 
 ## Web
 - [Cookie Monster](Cookie%20Monster)
-- [Fish shoups](Fish%20shoups)
+- [Fish Shoups](Fish%20Shoups)
 - [Saving Gaia](Saving%20Gaia)
 
 # Credits
