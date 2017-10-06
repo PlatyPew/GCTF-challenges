@@ -110,8 +110,6 @@ But how can we change the input? There is a message authentication code that pre
 
 Hash length extension works because the mac was generated with terrible algorithm such as this one. `hash(<secret key> + <message>) = mac`
 
-Using hashpump, we are able to append our own file location and the new generated hash. For the file, we are using `66696c656c6f636174696f6e2c6c6973742e74787480000000000000000000000000000000000000000001482c2f70726f632f73656c662f656e7669726f6e` and for the mac we are using this `641c68dcb0b1adc7f2d100717b5cc796b11287a6`.
-
 Caluculate the formula `$num3 = $num1 * $num2 - $num1 - $num2;` to get `magic`
 
 Since we don't know the length of `$SECRET`, we can brute force the values.
