@@ -40,7 +40,7 @@ None.
 
 ## Web
 - [Cookie Monster_60](Cookie%20Monster_60)
-- [Fish Shoups_50](Fish%20Shoups_50)
+- [Fish Shoups_50](Fish%20Shoup_50)
 - [Saving Gaia_100](Saving%20Gaia_100)
 
 # Credits
