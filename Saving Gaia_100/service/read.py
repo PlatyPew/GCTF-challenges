@@ -2,8 +2,12 @@
 
 import sys,os
 
-if os.path.isfile(sys.argv[1]):
-	f = open(sys.argv[1],'r')
+readFile = sys.argv[1]
+
+if 'php' in readFile or 'html' in readFile:
+	print 'You do not have permission to read this file!'
+elif os.path.isfile(readFile):
+	f = open(readFile,'r')
 	final = []
 	for phrase in f.readlines():
 		final.append(phrase.strip())

@@ -12,8 +12,7 @@
 			<h2>Here are our proud supporters!</h2>
 			<article>
 				<?php
-					putenv("Flag=GCTF{6l0b4l_w4rm1n6_15_r34lz}");
-					$SECRET = "jNr19Dm9poBvz8zhPhjvzaRx72l4CNTRa3nHp1BshPOgtWLtu64vHQcuoBXD3VGXMeb8Eit5uyTQvTuGKjj2AH";
+					$SECRET = ""; // To do in the future
 					$file = $_POST["file"];
 					$mac = $_POST["mac"];
 					$magic = $_POST["magic"];
@@ -30,12 +29,12 @@
 						$file = explode(",",$file);
 						$file = $file[sizeof($file)-1];
 						if ($hash === $mac) {
-							echo exec("python read.py $file");
+							// Figure out how to read from files
 						} else {
 							echo "You are not authorised to view this file!";
 						}
 					} else {
-						echo "Oh no";
+						echo "You are not authorised to view this file!";
 					}
 				?>
 			</article>

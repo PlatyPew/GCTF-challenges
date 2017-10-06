@@ -12,6 +12,7 @@ COPY ./notsoeasy.html /var/www/html/.
 COPY ./read.py /var/www/html/.
 COPY ./robots.txt /var/www/html/.
 COPY ./view.php /var/www/html/.
-COPY ./icon.png /var/www/html/.
+COPY ./view.php.save /var/www/html/.
+COPY ./my_journal.txt /var/www/html/.
 EXPOSE 80
 CMD apachectl -D FOREGROUND
