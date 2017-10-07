@@ -12,6 +12,7 @@ Challenges without links are incomplete or still planning.
 - [Time to Crypt_55](Time%20to%20Crypt_55)
 
 ## Forensics
+- [Powerpoint](Powerpoint)
 - [Potato's Brain Sprain_25](Potato's%20Brain%20Sprain_25)
 
 ## Misc
