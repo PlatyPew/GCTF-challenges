@@ -12,7 +12,7 @@ Challenges without links are incomplete or still planning.
 - [Time to Crypt_55](Time%20to%20Crypt_55)
 
 ## Forensics
-- [Powerpoint](Powerpoint)
+- [Powerpoint_15](Powerpoint_15)
 - [Potato's Brain Sprain_25](Potato's%20Brain%20Sprain_25)
 
 ## Misc
@@ -42,6 +42,7 @@ None.
 ## Web
 - [Cookie Monster_60](Cookie%20Monster_60)
 - [Fish Shoups_50](Fish%20Shoup_50)
+- [My nice site_10](My%20nice%20site_10)
 - [Saving Gaia_100](Saving%20Gaia_100)
 
 # Credits
