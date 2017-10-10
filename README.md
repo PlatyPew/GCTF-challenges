@@ -16,8 +16,6 @@ Challenges without links are incomplete or still planning.
 - [Potato's Brain Sprain_25](Potato's%20Brain%20Sprain_25)
 
 ## Misc
-
-- [A Whole New World_50](A%20Whole%20New%20World_50)
 - [Haxor wallaper_20](Haxor%20wallpaper_20)
 - [Hell's Programmer_15](Hell's%20Programmer_15)
 - [MESSY_CHEESE_30](MESSY_CHEESE_30)
@@ -30,10 +28,8 @@ Challenges without links are incomplete or still planning.
 
 ## Pwn
 - [Bashing_150](Bashing_150)
-- ~~Brain Sprain~~ (Discontinued)
 
 ## Reversing
-- [C my program](C%20my%20program) (Removed from competition)
 - [Depresso Espresso_60](Depresso%20Espresso_60)
 
 ## Sanity
