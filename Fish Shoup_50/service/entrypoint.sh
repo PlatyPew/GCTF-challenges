@@ -8,7 +8,7 @@ mysqld --user=root &
 httpd &
 
 # Install database
-sleep 15
+sleep 10
 mysql -u root -e """
 SET PASSWORD = PASSWORD('de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z');
 CREATE USER 'fishies'@'localhost' IDENTIFIED BY 'de3iik17rOC8K3RPWqcKIBeTtCo1UkvUnyC5l5eMiQ75Om5ZWXiqzsaj0f8z';

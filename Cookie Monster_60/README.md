@@ -4,7 +4,7 @@ Display use of XSS to steal cookies
 <i>Creator - @Platy</i>
 
 ## Category
-Web 60
+Web
 
 ## Question
 >Cookie monster has stolen my cookies again! And apparently, he learnt how to create a website to get more cookies! He is accepting nice images from users and running it on his image viewer using what he thinks is the best browser, Internet Explorer. Retrieve the cookie that he stole from me! Thanks!
@@ -18,7 +18,7 @@ None.
 None.
 
 ## Setup Guide
-Run `bash build.sh`
+Run `sudo bash build.sh`
 
 ## Solution
 Upon going on to the website, we can see a nice image viewer. Whatever you placed in the input field, the image will get displayed.

@@ -1,21 +1,19 @@
-FROM ubuntu:latest
+FROM php:7.0-apache
 RUN apt-get update
-RUN apt-get -y install apache2
-RUN apt-get -y install php7.0
-RUN apt-get -y install libapache2-mod-php7.0
-RUN apt-get -y install python
-RUN apt-get -y install libfontconfig
-COPY ./cookiemonsteronly.php /var/www/html/.
-COPY ./index.html /var/www/html/.
-COPY ./showImage.php /var/www/html/.
-COPY ./phantomjs /tmp/.
-COPY ./cookie.txt /tmp/.
-COPY ./image.js /tmp/.
-COPY ./run.py /tmp/.
-COPY ./setup.sh /tmp/.
-RUN chmod 755 /tmp/phantomjs
-RUN chmod 755 /tmp/image.js
-EXPOSE 80 44445
+RUN apt-get -y install python libfontconfig
+RUN rm -rf /var/www/html/ && mkdir -p /var/www/html
+COPY ./cookiemonsteronly.php /var/www/html/
+COPY ./index.html /var/www/html/
+COPY ./showImage.php /var/www/html/
+COPY ./.htaccess /var/www/html/
 WORKDIR /tmp
-ENTRYPOINT ["bash","setup.sh"]
-
+COPY ./phantomjs /tmp/
+COPY ./cookie.txt /tmp/
+COPY ./image.js /tmp/
+COPY ./run.py /tmp/
+COPY ./entrypoint.sh /tmp/
+RUN chmod 755 /tmp/phantomjs
+RUN chmod 755 /tmp/entrypoint.sh
+EXPOSE 44445
+RUN service apache2 start
+ENTRYPOINT ["/tmp/entrypoint.sh"]

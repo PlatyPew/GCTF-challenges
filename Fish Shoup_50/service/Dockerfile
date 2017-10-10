@@ -1,26 +1,11 @@
 FROM alpine:latest
-
-# Update packages
-RUN apk --update upgrade && \
-    apk add \
-        apache2 \
-        mysql \
-        mysql-client \
-        php5 \
-        php5-apache2 \
-        php5-mysqli
-
-# Prepare directories
-RUN mkdir -p /run/apache2/ && \
-    mkdir -p /run/mysqld/
-
-# Move source folder
+RUN apk update
+RUN apk add apache2 mysql mysql-client php5 php5-apache2 php5-mysqli
+RUN mkdir -p /run/apache2/
+RUN mkdir -p /run/mysqld/
+RUN mkdir -p /opt/chal
+RUN rm -rf /var/www/localhost/htdocs/ && mkdir -p /var/www/localhost/htdocs/
 COPY ./src /var/www/localhost/htdocs/
-
-# Move setup script
-COPY ./setup.sh /
-
-RUN chmod 755 /setup.sh
-
-# Set entrypoint
-CMD /setup.sh
+COPY ./entrypoint.sh /opt/chal/
+RUN chmod +x /opt/chal/entrypoint.sh
+CMD /opt/chal/entrypoint.sh
