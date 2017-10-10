@@ -55,7 +55,7 @@ Full Scoreboard
 - [Potato's Brain Sprain_25](Potato's%20Brain%20Sprain_25) (13 solves)
 
 ## Misc
-- [Haxor wallaper_20](Haxor%20wallpaper_20) (20 solves)
+- [Haxor wallpaper_20](Haxor%20wallpaper_20) (20 solves)
 - [Hell's Programmer_15](Hell's%20Programmer_15) (18 solves)
 - [MESSY_CHEESE_30](MESSY_CHEESE_30) (12 solves)
 - [Up the Base_25](Up%20the%20Base_25) (5 solves)
@@ -89,9 +89,7 @@ Continue Hacking Harder!
 <i>Creator - @PlatyPooper</i>
 
 ### Creators that I collaborated it
-<i>Creator - @paux</i>
-
-<i>Creator - @stopduckroll</i>
+<i>Creator - @paux &amp; @stopduckroll</i>
 
 ### Special Mention
 <i>Creator - @LFlare</i>
