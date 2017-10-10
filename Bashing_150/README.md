@@ -15,12 +15,13 @@ Pwn 150
 `I hate needles`
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 None.
 
-## Solution
+## Solutions
+### Intended Solution
 This challenge tests on bash injection.
 ```
 Foods available
@@ -171,6 +172,23 @@ for i in values:
 	print(chr(i),end='')
 print()
 ```
+
+### Shortcut Solution
+This information was shared by `Team Scapegoat`
+
+Using bash injection, you can do `/??n/??? ./*` to view all files in the directory
+
+You are given the hint that the flag is in the system
+
+Trying out every single system directory, you can find that it is located in 
+
+Doing `/*/??n/f?n? /??n/*f*`, you can find where the flag is.
+
+Finally, you can do `/??n/??? /*n*f*n*` and get the disassembly code
+
+Reverse it and get the flag
+
+REALLY REALLY SALTY
 
 ### Flag
 `GCTF{b45h1n6_15_b4d_f0r_h34l7h}`

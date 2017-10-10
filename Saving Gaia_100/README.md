@@ -12,10 +12,12 @@ Web 100
 >Connect via `http://<ip address> 17565`
 
 ### Hint
-`Are you feeling salty? Would you like to have a hashbrown?`
+`The journal contains the necessary information to find the PHP source code`
+
+`What happens to nano when it receives a SIGHUP or SIGTERM when it is running?`
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 No files to be distributed
@@ -69,7 +71,7 @@ Now we can head over to `my_journal.txt` and see what's inside
 25/9/2017:	I have a working page now. Amazing! I should tell all my friends about it. Hopefully, they will save the environment too!
 ```
 
-In the journal, we are shown that the developer's computer was shutdown unexpectedly. Nano has a usefule feature which appends the suffix `.save` when nano is closed unexpectedly.
+In the journal, we are shown that the developer's computer was shutdown unexpectedly. Nano has a useful feature which appends the suffix `.save` when nano is closed unexpectedly.
 
 So going to `view.php.save`, we are shown an older version of the source code of `view.php`.
 

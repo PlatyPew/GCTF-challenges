@@ -12,7 +12,7 @@ Web 50
 >Log into it to get your awesome reward of helping us, we are nice creatures!
 >
 >But remember to keep it a secret! Shhh...
->Connect via `http://<ip address> 17456`
+>Connect via `http://<ip address>:17456`
 
 ## Created by
 

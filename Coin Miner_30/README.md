@@ -15,7 +15,7 @@ Programming 30
 You can use random character generator
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 None.

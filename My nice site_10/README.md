@@ -15,7 +15,7 @@ Web 10
 None.
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 None.

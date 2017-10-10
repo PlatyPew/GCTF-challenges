@@ -9,13 +9,13 @@ Are you ready? 0
 ## Question
 >OH MAH GAWD THE ANIMU AWARDS R HERE! OBVIOUSLY, YURI ON ICE IS GOING TO WIN, BUT SOME OTHER CRAP ANIME THAT I HAVEN'T WATCHED B4 R WINNING!!!11!!!1! MAKE THE YURI ON ICE SCORE 1000000!!! I GIV U FLAG IF U DO IT!
 >
->Connect via http://localhost:17122
+>Connect via http://<ip address>:17122
 
 ### Hint
 None.
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 None.
