@@ -7,6 +7,22 @@ It was a blast writing these challenges!
 
 Congratulations to Team `[NC] DankBankPink` for solving all of my challenges!
 
+## Content Page
+- [Scoreboard](#scoreboard)
+- [Challenges](#challenges)
+	- [Are you ready?](#are-you-ready)
+	- [Crypto](#crypto)
+	- [Forensics](#forensics)
+	- [Misc](#misc)
+	- [Programming](#programming)
+	- [Pwn](#pwn)
+	- [Reversing](#reversing)
+	- [Sanity](#sanity)
+	- [Web](#web)
+- [Creator's Note](#creators-note)
+- [Credits](#credits)
+
+
 # Scoreboard
 Congrats to the top 5 competiting teams
 1. fs0ciety
@@ -80,7 +96,7 @@ None.
 - [My nice site_10](My%20nice%20site_10) (19 solves)
 - [Saving Gaia_100](Saving%20Gaia_100) (3 solves)
 
-# Creator's note
+# Creator's Note
 All my challenges are easy.
 
 Continue Hacking Harder!
