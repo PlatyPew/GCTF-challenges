@@ -9,7 +9,7 @@ Web 100
 ## Question
 >Please save the environment to get the flag!
 >
->Connect via `http://<ip address> 17565`
+>Connect via `http://<ip address>:17565`
 
 ### Hint
 `The journal contains the necessary information to find the PHP source code`
