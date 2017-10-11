@@ -1,3 +1,6 @@
-[submodule "base65536"]
+[submodule "Up%20the%20Base_25/solution/base65536"]
 	path = Up%20the%20Base_25/solution/base65536
 	url = https://github.com/Parkayun/base65536
+[submodule "Crypto%20Hotdogs_45/solution/rsa-wiener-attack"]
+	path = Crypto%20Hotdogs_45/solution/rsa-wiener-attack
+	url = https://github.com/pablocelayes/rsa-wiener-attack
