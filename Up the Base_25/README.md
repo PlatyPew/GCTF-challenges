@@ -28,7 +28,9 @@ So how can we find a way to encode something in a higher base if ascii only prov
 
 Unicode. By using all the 'safe' characters in unicode, we can increase the number of characters we have! This gives us 65536 characters to work with! This allows us to compress the text by half, representing 2 ascii characters in one unicode character (Which explains the Chinese text)
 
-Download the base65536 program in your favourite language and run it. (I'm using Python to do it)
+Download the base65536 program in your favourite language and run it. In this case, Python was used.
+
+Do `pip install base65536` to install base65536
 
 ```python
 import base65536
