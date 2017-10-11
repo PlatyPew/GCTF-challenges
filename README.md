@@ -104,7 +104,7 @@ Continue Hacking Harder!
 # Credits
 <i>Creator - @PlatyPooper</i>
 
-### Creators that I collaborated it
+### Creators that I collaborated with
 <i>Creator - @paux &amp; @stopduckroll</i>
 
 ### Special Mention
