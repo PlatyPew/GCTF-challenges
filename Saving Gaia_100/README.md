@@ -60,13 +60,11 @@ Now we can head over to `my_journal.txt` and see what's inside
 
 12/9/2017:	Going back to nano editor. I'm too dumb for vi, but I won't tell my senior that.
 
-13/9/2017:	Nano is best editor obviously... I can code in php and it has nice colours!
-
 15/9/2017:	My laptop battery spoilt and those stingy companies only gave 1 year warranty on that. Someone accidentally tripped over my wire and my screen blacked out. Thanks a lot!
 
 22/9/2017:	Finished the first php prototype of my program!
 
-23/9/2017:	Just need to figure out how to read files and maybe a password... Who knows?
+23/9/2017:	Just need to figure out how to read files and maybe a password... W3schools baby! Solves all your problems.
 
 25/9/2017:	I have a working page now. Amazing! I should tell all my friends about it. Hopefully, they will save the environment too!
 ```
