@@ -1,3 +1,7 @@
+>Disclaimer!
+>
+>If your server properties are not setup properly, you are susceptible to a fork bomb.
+
 # Bashing your spirit foods
 Testing on bash injection knowledge
 
