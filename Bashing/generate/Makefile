@@ -1,0 +1,2 @@
+all:
+	gcc thisisareallylongflagbutifyoucansomehowcatthisitwouldbeamazing.c -o thisisareallylongflagbutifyoucansomehowcatthisitwouldbeamazing

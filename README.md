@@ -60,41 +60,41 @@ Full Scoreboard
 | 21    | Unique             | 75    |
 # Challenges
 ## Are you ready?
-- [Cringeyroll_0](Cringeyroll_0) (17 solves)
+- [Cringeyroll 0](Cringeyroll) (17 solves)
 
 ## Crypto
-- [Crypto Hotdogs_45](Crypto%20Hotdogs_45) (9 solves)
-- [Time to Crypt_55](Time%20to%20Crypt_55) (6 solves)
+- [Crypto Hotdogs 45](Crypto%20Hotdogs) (9 solves)
+- [Time to Crypt 55](Time%20to%20Crypt) (6 solves)
 
 ## Forensics
-- [Powerpoint_15](Powerpoint_15) (11 solves)
-- [Potato's Brain Sprain_25](Potato's%20Brain%20Sprain_25) (13 solves)
+- [Powerpoint 15](Powerpoint) (11 solves)
+- [Potato's Brain Sprain 25](Potato's%20Brain%20Sprain) (13 solves)
 
 ## Misc
-- [Haxor wallpaper_20](Haxor%20wallpaper_20) (20 solves)
-- [Hell's Programmer_15](Hell's%20Programmer_15) (18 solves)
-- [MESSY_CHEESE_30](MESSY_CHEESE_30) (12 solves)
-- [Up the Base_25](Up%20the%20Base_25) (5 solves)
+- [Haxor wallpaper 20](Haxor%20wallpaper) (20 solves)
+- [Hell's Programmer 15](Hell's%20Programmer) (18 solves)
+- [MESSY_CHEESE 30](MESSY_CHEESE) (12 solves)
+- [Up the Base 25](Up%20the%20Base) (5 solves)
 
 ## Programming
-- [Coin Miner_30](Coin%20Miner_30) (12 solves)
-- [Find mah monehs_120](Find%20mah%20monehs_120) (9 solves)
-- [Lecturer Says_20](Lecturer%20Says_20) (11 solves)
+- [Coin Miner 30](Coin%20Miner) (12 solves)
+- [Find mah monehs 120](Find%20mah%20monehs) (9 solves)
+- [Lecturer Says 20](Lecturer%20Says) (11 solves)
 
 ## Pwn
-- [Bashing_150](Bashing_150) (3 solves)
+- [Bashing 150](Bashing) (3 solves)
 
 ## Reversing
-- [Depresso Espresso_60](Depresso%20Espresso_60) (4 solves)
+- [Depresso Espresso 60](Depresso%20Espresso) (4 solves)
 
 ## Sanity
 None.
 
 ## Web
-- [Cookie Monster_60](Cookie%20Monster_60) (9 solves)
-- [Fish Shoups_50](Fish%20Shoup_50) (12 solves)
-- [My nice site_10](My%20nice%20site_10) (19 solves)
-- [Saving Gaia_100](Saving%20Gaia_100) (3 solves)
+- [Cookie Monster 60](Cookie%20Monster) (9 solves)
+- [Fish Shoups 50](Fish%20Shoup) (12 solves)
+- [My nice site 10](My%20nice%20site) (19 solves)
+- [Saving Gaia 100](Saving%20Gaia) (3 solves)
 
 # Creator's Note
 All my challenges are easy.
